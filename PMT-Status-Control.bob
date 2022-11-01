@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display version="2.0.0">
+  <name>PMT Status &amp; Control</name>
+  <widget type="rectangle" version="2.0.0">
+    <name>Rectangle</name>
+    <x>20</x>
+    <y>50</y>
+    <width>520</width>
+    <height>180</height>
+    <line_width>0</line_width>
+    <line_color>
+      <color red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="240" green="240" blue="240">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label</name>
+    <text>$(h)</text>
+    <x>20</x>
+    <y>50</y>
+    <width>520</width>
+    <height>30</height>
+    <font>
+      <font family="Segoe UI" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color red="255" green="255" blue="255">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="0" green="0" blue="0">
+      </color>
+    </background_color>
+    <transparent>false</transparent>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <wrap_words>false</wrap_words>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_1</name>
+    <text>Set voltage [V]</text>
+    <x>40</x>
+    <y>160</y>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_2</name>
+    <text>Set current limit [uA]</text>
+    <x>40</x>
+    <y>190</y>
+    <width>130</width>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>Text Entry</name>
+    <pv_name>hchv$(cr):$(sl):$(ch):V0Set</pv_name>
+    <x>175</x>
+    <y>160</y>
+    <width>55</width>
+    <show_units>false</show_units>
+    <horizontal_alignment>2</horizontal_alignment>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>Text Entry_1</name>
+    <pv_name>hchv$(cr):$(sl):$(ch):I0Set</pv_name>
+    <x>175</x>
+    <y>190</y>
+    <width>55</width>
+    <show_units>false</show_units>
+    <horizontal_alignment>2</horizontal_alignment>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED</name>
+    <pv_name>hchv$(cr):$(sl):$(ch):Pw</pv_name>
+    <x>220</x>
+    <y>100</y>
+    <width>100</width>
+    <height>40</height>
+    <off_label>STATUS</off_label>
+    <off_color>
+      <color red="255" green="0" blue="0">
+      </color>
+    </off_color>
+    <on_label>OK</on_label>
+    <square>true</square>
+    <rules>
+      <rule name="Color Rule" prop_id="on_color" out_exp="false">
+        <exp bool_exp="pv0 == 512">
+          <value>
+            <color name="MINOR" red="255" green="128" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="pv2 &lt; (pv1 - 5) &amp;&amp; pv4 == 1">
+          <value>
+            <color red="255" green="255" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="pv2 &gt; (pv1 + 5) &amp;&amp; pv4 == 1">
+          <value>
+            <color red="255" green="255" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="pv3 &gt; 65">
+          <value>
+            <color red="255" green="119" blue="255">
+            </color>
+          </value>
+        </exp>
+        <pv_name>hchv$(cr):$(sl):$(ch):Status</pv_name>
+        <pv_name>hchv$(cr):$(sl):$(ch):V0Set</pv_name>
+        <pv_name>hchv$(cr):$(sl):$(ch):VMon</pv_name>
+        <pv_name>hchv$(cr):$(sl):Temp</pv_name>
+        <pv_name>hchv$(cr):$(sl):$(ch):Pw</pv_name>
+      </rule>
+      <rule name="Label Rule" prop_id="on_label" out_exp="false">
+        <exp bool_exp="pv0 == 512">
+          <value>Trip</value>
+        </exp>
+        <exp bool_exp="pv2 &lt; (pv1 - 5)">
+          <value>Mismatch</value>
+        </exp>
+        <exp bool_exp="pv2 &gt; (pv1 + 5)">
+          <value>Mismatch</value>
+        </exp>
+        <exp bool_exp="pv3 &gt; 65">
+          <value>OVTemp</value>
+        </exp>
+        <pv_name>hchv$(cr):$(sl):$(ch):Status</pv_name>
+        <pv_name>hchv$(cr):$(sl):$(ch):V0Set</pv_name>
+        <pv_name>hchv$(cr):$(sl):$(ch):VMon</pv_name>
+        <pv_name>hchv$(cr):$(sl):Temp</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>Boolean Button</name>
+    <pv_name>hchv$(cr):$(sl):$(ch):Pw</pv_name>
+    <x>40</x>
+    <y>100</y>
+    <height>40</height>
+    <off_label>Power</off_label>
+    <off_color>
+      <color red="255" green="0" blue="0">
+      </color>
+    </off_color>
+    <on_label>Power</on_label>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_3</name>
+    <text>Readback voltage [V]</text>
+    <x>300</x>
+    <y>160</y>
+    <width>150</width>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_4</name>
+    <text>Readback current [uA]</text>
+    <x>300</x>
+    <y>190</y>
+    <width>160</width>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>Text Entry_3</name>
+    <pv_name>hchv$(cr):$(sl):$(ch):VMon</pv_name>
+    <x>445</x>
+    <y>160</y>
+    <width>55</width>
+    <background_color>
+      <color red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <show_units>false</show_units>
+    <horizontal_alignment>2</horizontal_alignment>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>Text Entry_4</name>
+    <pv_name>hchv$(cr):$(sl):$(ch):IMon</pv_name>
+    <x>445</x>
+    <y>190</y>
+    <width>55</width>
+    <background_color>
+      <color red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <show_units>false</show_units>
+    <horizontal_alignment>2</horizontal_alignment>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>Action Button</name>
+    <actions>
+      <action type="write_pv">
+        <pv_name>$(pv_name)</pv_name>
+        <value>0</value>
+        <description>Power Off</description>
+      </action>
+      <action type="write_pv">
+        <pv_name>hchv$(cr):ClearAlarm</pv_name>
+        <value>1</value>
+        <description>Clear Alarm</description>
+      </action>
+      <action type="write_pv">
+        <pv_name>$(pv_name)</pv_name>
+        <value>1</value>
+        <description>Power On</description>
+      </action>
+    </actions>
+    <pv_name>hchv$(cr):$(sl):$(ch):Pw</pv_name>
+    <text>  Trip Restore</text>
+    <x>403</x>
+    <y>100</y>
+    <height>40</height>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_1</name>
+    <pv_name>hchv$(cr):$(sl):$(ch):Status</pv_name>
+    <x>220</x>
+    <y>100</y>
+    <width>100</width>
+    <height>40</height>
+    <visible>false</visible>
+    <off_label>FAULT</off_label>
+    <off_color>
+      <color red="255" green="0" blue="0">
+      </color>
+    </off_color>
+    <on_label>FAULT</on_label>
+    <square>true</square>
+    <rules>
+      <rule name="Color Rule" prop_id="on_color" out_exp="false">
+        <exp bool_exp="pv0 == 17">
+          <value>
+            <color red="255" green="255" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="pv0 == 512">
+          <value>
+            <color name="MINOR" red="255" green="128" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>hchv$(cr):$(sl):$(ch):Status</pv_name>
+        <pv_name>hchv$(cr):$(sl):$(ch):V0Set</pv_name>
+        <pv_name>hchv$(cr):$(sl):$(ch):VMon</pv_name>
+        <pv_name>hchv$(cr):$(sl):Temp</pv_name>
+        <pv_name>hchv$(cr):$(sl):$(ch):Pw</pv_name>
+      </rule>
+      <rule name="Label Rule" prop_id="on_label" out_exp="false">
+        <exp bool_exp="pv0 == 17">
+          <value>Mismatch</value>
+        </exp>
+        <exp bool_exp="pv0 == 512">
+          <value>Trip</value>
+        </exp>
+        <pv_name>hchv$(cr):$(sl):$(ch):Status</pv_name>
+        <pv_name>hchv$(cr):$(sl):$(ch):V0Set</pv_name>
+        <pv_name>hchv$(cr):$(sl):$(ch):VMon</pv_name>
+        <pv_name>hchv$(cr):$(sl):Temp</pv_name>
+        <pv_name>hchv$(cr):$(sl):$(ch):Pw</pv_name>
+      </rule>
+      <rule name="Visible Rule" prop_id="visible" out_exp="false">
+        <exp bool_exp="pv0 == 17">
+          <value>true</value>
+        </exp>
+        <exp bool_exp="pv0 == 512">
+          <value>true</value>
+        </exp>
+        <pv_name>hchv$(cr):$(sl):$(ch):Status</pv_name>
+      </rule>
+    </rules>
+  </widget>
+</display>

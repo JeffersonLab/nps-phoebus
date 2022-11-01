@@ -1,0 +1,714 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display version="2.0.0">
+  <name>menu</name>
+  <width>700</width>
+  <height>650</height>
+  <widget type="rectangle" version="2.0.0">
+    <name>Rectangle_1</name>
+    <x>392</x>
+    <y>61</y>
+    <width>279</width>
+    <height>487</height>
+    <line_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="204" green="255" blue="204">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>Rectangle</name>
+    <x>12</x>
+    <y>61</y>
+    <width>369</width>
+    <height>435</height>
+    <line_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="204" green="230" blue="255">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_1</name>
+    <text>Monitoring</text>
+    <x>156</x>
+    <y>72</y>
+    <width>93</width>
+    <height>21</height>
+    <font>
+      <font name="Header 2" family="Liberation Sans" style="BOLD" size="18.0">
+      </font>
+    </font>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>front temps</name>
+    <actions>
+      <action type="open_display">
+        <file>CZ temps monitoring.bob</file>
+        <macros>
+          <h>Front</h>
+          <s>front</s>
+          <z>front</z>
+        </macros>
+        <target>window</target>
+        <description>Open Display</description>
+      </action>
+    </actions>
+    <text>Crystal Zone Front Temperatures</text>
+    <x>24</x>
+    <y>134</y>
+    <width>239</width>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label</name>
+    <text>NPS Monitoring and Controls</text>
+    <x>197</x>
+    <y>14</y>
+    <width>307</width>
+    <height>25</height>
+    <font>
+      <font name="Header 1" family="Liberation Sans" style="BOLD" size="22.0">
+      </font>
+    </font>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>back temps</name>
+    <actions>
+      <action type="open_display">
+        <file>CZ temps monitoring.bob</file>
+        <macros>
+          <h>Back</h>
+          <s>rear</s>
+          <z>back</z>
+        </macros>
+        <target>window</target>
+        <description>Open Display</description>
+      </action>
+    </actions>
+    <text>Crystal Zone Back Temperatures</text>
+    <x>24</x>
+    <y>174</y>
+    <width>239</width>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>cooling circuit temps</name>
+    <actions>
+      <action type="open_display">
+        <file>cooling circuit CZ temps monitoring.bob</file>
+        <target>window</target>
+        <description>Open Display</description>
+      </action>
+    </actions>
+    <text>Crystal Zone Cooling Circuit</text>
+    <x>24</x>
+    <y>214</y>
+    <width>239</width>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>alarm limits front</name>
+    <actions>
+      <action type="open_display">
+        <file>CZ temps controls.bob</file>
+        <macros>
+          <h>Front</h>
+          <z>front</z>
+        </macros>
+        <target>window</target>
+        <description>Open Display</description>
+      </action>
+    </actions>
+    <text>Crystal Zone Front Temperatures</text>
+    <x>412</x>
+    <y>134</y>
+    <width>239</width>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>alarm limits back</name>
+    <actions>
+      <action type="open_display">
+        <file>CZ temps controls.bob</file>
+        <macros>
+          <h>Back</h>
+          <z>back</z>
+        </macros>
+        <target>window</target>
+        <description>Open Display</description>
+      </action>
+    </actions>
+    <text>Crystal Zone Back Temperatures</text>
+    <x>412</x>
+    <y>174</y>
+    <width>239</width>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>alarm limits cooling circuit</name>
+    <actions>
+      <action type="open_display">
+        <file>cooling circuit CZ temp controls.bob</file>
+        <target>window</target>
+        <description>Open Display</description>
+      </action>
+    </actions>
+    <text>Crystal Zone Cooling Circuit</text>
+    <x>412</x>
+    <y>214</y>
+    <width>239</width>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>electronics zone</name>
+    <actions>
+      <action type="open_display">
+        <file>electronics zone monitoring.bob</file>
+        <target>window</target>
+        <description>Open Display</description>
+      </action>
+    </actions>
+    <text>Electronics Zone Temperatures</text>
+    <x>24</x>
+    <y>254</y>
+    <width>239</width>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>detector frame</name>
+    <actions>
+      <action type="open_display">
+        <file>detector frame monitoring.bob</file>
+        <target>window</target>
+        <description>Open Display</description>
+      </action>
+    </actions>
+    <text>Detector Frame</text>
+    <x>24</x>
+    <y>294</y>
+    <width>239</width>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>hall</name>
+    <actions>
+      <action type="open_display">
+        <file>hall monitoring.bob</file>
+        <target>window</target>
+        <description>Open Display</description>
+      </action>
+    </actions>
+    <text>Hall</text>
+    <x>24</x>
+    <y>334</y>
+    <width>239</width>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>hall_1</name>
+    <actions>
+      <action type="open_display">
+        <file>chiller monitoring.bob</file>
+        <target>window</target>
+        <description>Open Display</description>
+      </action>
+    </actions>
+    <text>Chiller Coolant</text>
+    <x>24</x>
+    <y>374</y>
+    <width>239</width>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_2</name>
+    <text>Control</text>
+    <x>495</x>
+    <y>72</y>
+    <width>64</width>
+    <height>21</height>
+    <font>
+      <font name="Header 2" family="Liberation Sans" style="BOLD" size="18.0">
+      </font>
+    </font>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>electronics zone_1</name>
+    <actions>
+      <action type="open_display">
+        <file>electronics zone controls.bob</file>
+        <target>window</target>
+        <description>Open Display</description>
+      </action>
+    </actions>
+    <text>Electronics Zone</text>
+    <x>412</x>
+    <y>254</y>
+    <width>239</width>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>detector frame_1</name>
+    <actions>
+      <action type="open_display">
+        <file>detector frame controls.bob</file>
+        <target>window</target>
+        <description>Open Display</description>
+      </action>
+    </actions>
+    <text>Detector Frame</text>
+    <x>412</x>
+    <y>294</y>
+    <width>239</width>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>Boolean Button</name>
+    <pv_name>hcnps_EPICS_control</pv_name>
+    <bit>0</bit>
+    <x>152</x>
+    <y>443</y>
+    <width>100</width>
+    <height>30</height>
+    <off_label>Off</off_label>
+    <on_label>On</on_label>
+    <on_color>
+      <color red="60" green="255" blue="60">
+      </color>
+    </on_color>
+    <square>true</square>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_12</name>
+    <text>EPICS control</text>
+    <x>156</x>
+    <y>422</y>
+    <width>94</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_13</name>
+    <text>Reset interlocks</text>
+    <x>474</x>
+    <y>480</y>
+    <width>109</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>Boolean Button_1</name>
+    <pv_name>hcnps_reset_interlocks</pv_name>
+    <x>479</x>
+    <y>501</y>
+    <show_led>false</show_led>
+    <mode>1</mode>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_14</name>
+    <text>Reset averaging</text>
+    <x>474</x>
+    <y>422</y>
+    <width>109</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>Boolean Button_2</name>
+    <pv_name>hcnps_reset_averaging</pv_name>
+    <x>479</x>
+    <y>443</y>
+    <show_led>false</show_led>
+    <mode>1</mode>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED</name>
+    <pv_name>hcnps_CZ_cooling_T_status_OK</pv_name>
+    <x>285</x>
+    <y>214</y>
+    <width>30</width>
+    <height>30</height>
+    <off_label>OK</off_label>
+    <off_color>
+      <color red="0" green="255" blue="0">
+      </color>
+    </off_color>
+    <on_color>
+      <color red="255" green="0" blue="0">
+      </color>
+    </on_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_3</name>
+    <text>Status</text>
+    <x>279</x>
+    <y>107</y>
+    <width>43</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_4</name>
+    <text>Latch</text>
+    <x>333</x>
+    <y>107</y>
+    <width>38</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_1</name>
+    <pv_name>hcnps_CZ_T_status_OK_back</pv_name>
+    <x>285</x>
+    <y>174</y>
+    <width>30</width>
+    <height>30</height>
+    <off_label>OK</off_label>
+    <off_color>
+      <color name="OK" red="0" green="255" blue="0">
+      </color>
+    </off_color>
+    <on_color>
+      <color name="STOP" red="255" green="0" blue="0">
+      </color>
+    </on_color>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_2</name>
+    <pv_name>hcnps_CZ_T_status_OK_front</pv_name>
+    <x>285</x>
+    <y>134</y>
+    <width>30</width>
+    <height>30</height>
+    <off_label>OK</off_label>
+    <off_color>
+      <color name="OK" red="0" green="255" blue="0">
+      </color>
+    </off_color>
+    <on_color>
+      <color name="STOP" red="255" green="0" blue="0">
+      </color>
+    </on_color>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_3</name>
+    <pv_name>hcnps_EZ_cooling_T_status_OK</pv_name>
+    <x>285</x>
+    <y>254</y>
+    <width>30</width>
+    <height>30</height>
+    <off_label>OK</off_label>
+    <off_color>
+      <color name="OK" red="0" green="255" blue="0">
+      </color>
+    </off_color>
+    <on_color>
+      <color name="STOP" red="255" green="0" blue="0">
+      </color>
+    </on_color>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_4</name>
+    <pv_name>hcnps_DF_status_OK</pv_name>
+    <x>285</x>
+    <y>294</y>
+    <width>30</width>
+    <height>30</height>
+    <off_label>OK</off_label>
+    <off_color>
+      <color name="OK" red="0" green="255" blue="0">
+      </color>
+    </off_color>
+    <on_color>
+      <color name="STOP" red="255" green="0" blue="0">
+      </color>
+    </on_color>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_5</name>
+    <pv_name>hcnps_hall_status_OK</pv_name>
+    <x>285</x>
+    <y>334</y>
+    <width>30</width>
+    <height>30</height>
+    <off_label>OK</off_label>
+    <off_color>
+      <color name="OK" red="0" green="255" blue="0">
+      </color>
+    </off_color>
+    <on_color>
+      <color name="STOP" red="255" green="0" blue="0">
+      </color>
+    </on_color>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_6</name>
+    <pv_name>hcnps_coolant_status_OK</pv_name>
+    <x>285</x>
+    <y>374</y>
+    <width>30</width>
+    <height>30</height>
+    <off_label>OK</off_label>
+    <off_color>
+      <color name="OK" red="0" green="255" blue="0">
+      </color>
+    </off_color>
+    <on_color>
+      <color name="STOP" red="255" green="0" blue="0">
+      </color>
+    </on_color>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_7</name>
+    <pv_name>hcnps_CZ_T_latch_OK_front</pv_name>
+    <x>338</x>
+    <y>134</y>
+    <width>30</width>
+    <height>30</height>
+    <off_label>OK</off_label>
+    <off_color>
+      <color name="OK" red="0" green="255" blue="0">
+      </color>
+    </off_color>
+    <on_color>
+      <color name="STOP" red="255" green="0" blue="0">
+      </color>
+    </on_color>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_8</name>
+    <pv_name>hcnps_CZ_T_latch_OK_back</pv_name>
+    <x>338</x>
+    <y>174</y>
+    <width>30</width>
+    <height>30</height>
+    <off_label>OK</off_label>
+    <off_color>
+      <color name="OK" red="0" green="255" blue="0">
+      </color>
+    </off_color>
+    <on_color>
+      <color name="STOP" red="255" green="0" blue="0">
+      </color>
+    </on_color>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_9</name>
+    <pv_name>hcnps_CZ_cooling_T_latch_OK</pv_name>
+    <x>338</x>
+    <y>214</y>
+    <width>30</width>
+    <height>30</height>
+    <off_label>OK</off_label>
+    <off_color>
+      <color red="0" green="255" blue="0">
+      </color>
+    </off_color>
+    <on_color>
+      <color red="255" green="0" blue="0">
+      </color>
+    </on_color>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_10</name>
+    <pv_name>hcnps_EZ_cooling_T_latch_OK</pv_name>
+    <x>338</x>
+    <y>254</y>
+    <width>30</width>
+    <height>30</height>
+    <off_label>OK</off_label>
+    <off_color>
+      <color name="OK" red="0" green="255" blue="0">
+      </color>
+    </off_color>
+    <on_color>
+      <color name="STOP" red="255" green="0" blue="0">
+      </color>
+    </on_color>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_11</name>
+    <pv_name>hcnps_DF_latch_OK</pv_name>
+    <x>338</x>
+    <y>294</y>
+    <width>30</width>
+    <height>30</height>
+    <off_label>OK</off_label>
+    <off_color>
+      <color name="OK" red="0" green="255" blue="0">
+      </color>
+    </off_color>
+    <on_color>
+      <color name="STOP" red="255" green="0" blue="0">
+      </color>
+    </on_color>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_12</name>
+    <pv_name>hcnps_hall_latch_OK</pv_name>
+    <x>338</x>
+    <y>334</y>
+    <width>30</width>
+    <height>30</height>
+    <off_label>OK</off_label>
+    <off_color>
+      <color name="OK" red="0" green="255" blue="0">
+      </color>
+    </off_color>
+    <on_color>
+      <color name="STOP" red="255" green="0" blue="0">
+      </color>
+    </on_color>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_13</name>
+    <pv_name>hcnps_coolant_latch_OK</pv_name>
+    <x>338</x>
+    <y>374</y>
+    <width>30</width>
+    <height>30</height>
+    <off_label>OK</off_label>
+    <off_color>
+      <color name="OK" red="0" green="255" blue="0">
+      </color>
+    </off_color>
+    <on_color>
+      <color name="STOP" red="255" green="0" blue="0">
+      </color>
+    </on_color>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>hall_2</name>
+    <actions>
+      <action type="open_display">
+        <file>hall controls.bob</file>
+        <target>window</target>
+        <description>Open Display</description>
+      </action>
+    </actions>
+    <text>Hall</text>
+    <x>412</x>
+    <y>334</y>
+    <width>239</width>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>hall_3</name>
+    <actions>
+      <action type="open_display">
+        <file>chiller controls.bob</file>
+        <target>window</target>
+        <description>Open Display</description>
+      </action>
+    </actions>
+    <text>Chiller Coolant</text>
+    <x>412</x>
+    <y>374</y>
+    <width>239</width>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update</name>
+    <pv_name>sys://time</pv_name>
+    <x>56</x>
+    <y>525</y>
+    <width>244</width>
+    <background_color>
+      <color name="Header_ForeGround" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <wrap_words>false</wrap_words>
+  </widget>
+</display>

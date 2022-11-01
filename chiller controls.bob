@@ -1,0 +1,635 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display version="2.0.0">
+  <name>chiller controls</name>
+  <width>1260</width>
+  <height>260</height>
+  <widget type="label" version="2.0.0">
+    <name>Label_191</name>
+    <text>Chiller Coolant Controls</text>
+    <x>539</x>
+    <y>5</y>
+    <width>207</width>
+    <height>21</height>
+    <font>
+      <font name="Header 2" family="Liberation Sans" style="BOLD" size="18.0">
+      </font>
+    </font>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_215</name>
+    <text>Electronics Zone</text>
+    <x>923</x>
+    <y>43</y>
+    <width>129</width>
+    <height>19</height>
+    <font>
+      <font name="Header 3" family="Liberation Sans" style="BOLD" size="16.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color red="0" green="0" blue="255">
+      </color>
+    </foreground_color>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_216</name>
+    <text>Crystal Zone</text>
+    <x>393</x>
+    <y>43</y>
+    <width>97</width>
+    <height>19</height>
+    <font>
+      <font name="Header 3" family="Liberation Sans" style="BOLD" size="16.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color red="0" green="0" blue="255">
+      </color>
+    </foreground_color>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_233</name>
+    <text>Sensor enable</text>
+    <x>272</x>
+    <y>77</y>
+    <width>60</width>
+    <height>46</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+  </widget>
+  <widget type="array" version="2.0.0">
+    <name>aver enable_1</name>
+    <pv_name>hcnps_CZ_coolant_T_P_flow_aver_enable</pv_name>
+    <x>338</x>
+    <y>121</y>
+    <width>85</width>
+    <height>104</height>
+    <widget type="bool_button" version="2.0.0">
+      <name>Boolean Button_8</name>
+      <width>65</width>
+      <height>28</height>
+      <on_label>Enabled</on_label>
+      <show_led>false</show_led>
+    </widget>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_234</name>
+    <text>Avg enable</text>
+    <x>346</x>
+    <y>77</y>
+    <width>68</width>
+    <height>43</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+  </widget>
+  <widget type="array" version="2.0.0">
+    <name>interlock enable_1</name>
+    <pv_name>hcnps_CZ_coolant_T_P_flow_intlk_enable </pv_name>
+    <x>469</x>
+    <y>121</y>
+    <width>85</width>
+    <height>104</height>
+    <widget type="bool_button" version="2.0.0">
+      <name>Boolean Button_9</name>
+      <width>65</width>
+      <height>28</height>
+      <on_label>Enabled</on_label>
+      <show_led>false</show_led>
+    </widget>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_235</name>
+    <text>Intlk enable</text>
+    <x>478</x>
+    <y>77</y>
+    <width>66</width>
+    <height>46</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_236</name>
+    <text>high</text>
+    <x>219</x>
+    <y>94</y>
+    <width>30</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_242</name>
+    <text># of pts to avg</text>
+    <x>414</x>
+    <y>77</y>
+    <width>63</width>
+    <height>40</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+  </widget>
+  <widget type="array" version="2.0.0">
+    <name>T hi_1</name>
+    <pv_name>hcnps_CZ_coolant_T_P_flow_num_to_avg</pv_name>
+    <x>418</x>
+    <y>121</y>
+    <width>55</width>
+    <height>104</height>
+    <widget type="textentry" version="3.0.0">
+      <name>Text Update_36</name>
+      <width>35</width>
+      <height>28</height>
+      <background_color>
+        <color name="Background" red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <precision>0</precision>
+      <horizontal_alignment>1</horizontal_alignment>
+      <wrap_words>true</wrap_words>
+    </widget>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_246</name>
+    <text>Trip delay enable</text>
+    <x>558</x>
+    <y>77</y>
+    <width>66</width>
+    <height>46</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+  </widget>
+  <widget type="array" version="2.0.0">
+    <name>interlock enable_4</name>
+    <pv_name>hcnps_CZ_coolant_T_P_flow_trip_delay_enable</pv_name>
+    <x>549</x>
+    <y>121</y>
+    <width>85</width>
+    <height>104</height>
+    <widget type="bool_button" version="2.0.0">
+      <name>Boolean Button_13</name>
+      <width>65</width>
+      <height>28</height>
+      <on_label>Enabled</on_label>
+      <show_led>false</show_led>
+    </widget>
+  </widget>
+  <widget type="array" version="2.0.0">
+    <name>sensor enable_2</name>
+    <pv_name>hcnps_EZ_coolant_T_P_flow_sensor_enable</pv_name>
+    <x>799</x>
+    <y>121</y>
+    <width>85</width>
+    <height>104</height>
+    <widget type="bool_button" version="2.0.0">
+      <name>Boolean Button_14</name>
+      <width>65</width>
+      <height>28</height>
+      <on_label>Enabled</on_label>
+      <show_led>false</show_led>
+    </widget>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_247</name>
+    <text>Sensor enable</text>
+    <x>813</x>
+    <y>77</y>
+    <width>60</width>
+    <height>46</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+  </widget>
+  <widget type="array" version="2.0.0">
+    <name>aver enable_2</name>
+    <pv_name>hcnps_EZ_coolant_T_P_flow_aver_enable</pv_name>
+    <x>879</x>
+    <y>121</y>
+    <width>85</width>
+    <height>104</height>
+    <widget type="bool_button" version="2.0.0">
+      <name>Boolean Button_15</name>
+      <width>65</width>
+      <height>28</height>
+      <on_label>Enabled</on_label>
+      <show_led>false</show_led>
+    </widget>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_248</name>
+    <text>Avg enable</text>
+    <x>887</x>
+    <y>77</y>
+    <width>68</width>
+    <height>43</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+  </widget>
+  <widget type="array" version="2.0.0">
+    <name>interlock enable_5</name>
+    <pv_name>hcnps_EZ_coolant_T_P_flow_intlk_enable</pv_name>
+    <x>1010</x>
+    <y>121</y>
+    <width>85</width>
+    <height>104</height>
+    <widget type="bool_button" version="2.0.0">
+      <name>Boolean Button_16</name>
+      <width>65</width>
+      <height>28</height>
+      <on_label>Enabled</on_label>
+      <show_led>false</show_led>
+    </widget>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_249</name>
+    <text>Intlk enable</text>
+    <x>1019</x>
+    <y>77</y>
+    <width>66</width>
+    <height>46</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_253</name>
+    <text># of pts to avg</text>
+    <x>955</x>
+    <y>77</y>
+    <width>63</width>
+    <height>40</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+  </widget>
+  <widget type="array" version="2.0.0">
+    <name>T hi_3</name>
+    <pv_name>hcnps_EZ_coolant_T_P_flow_num_to_avg</pv_name>
+    <x>959</x>
+    <y>121</y>
+    <width>55</width>
+    <height>104</height>
+    <widget type="textentry" version="3.0.0">
+      <name>Text Update_38</name>
+      <width>35</width>
+      <height>28</height>
+      <background_color>
+        <color name="Background" red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <precision>0</precision>
+      <horizontal_alignment>1</horizontal_alignment>
+      <wrap_words>true</wrap_words>
+    </widget>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_254</name>
+    <text>Trip delay enable</text>
+    <x>1099</x>
+    <y>77</y>
+    <width>66</width>
+    <height>46</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+  </widget>
+  <widget type="array" version="2.0.0">
+    <name>interlock enable_6</name>
+    <pv_name>hcnps_EZ_coolant_T_P_flow_trip_delay_enable</pv_name>
+    <x>1090</x>
+    <y>121</y>
+    <width>85</width>
+    <height>104</height>
+    <widget type="bool_button" version="2.0.0">
+      <name>Boolean Button_17</name>
+      <width>65</width>
+      <height>28</height>
+      <on_label>Enabled</on_label>
+      <show_led>false</show_led>
+    </widget>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_262</name>
+    <text>Trip delay time [s]</text>
+    <x>1178</x>
+    <y>77</y>
+    <width>71</width>
+    <height>39</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update</name>
+    <pv_name>sys://time</pv_name>
+    <x>27</x>
+    <y>229</y>
+    <width>149</width>
+    <background_color>
+      <color name="Header_ForeGround" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <wrap_words>false</wrap_words>
+  </widget>
+  <widget type="array" version="2.0.0">
+    <name>T hi_4</name>
+    <pv_name>hcnps_CZ_coolant_T_P_flow_hi_limit</pv_name>
+    <x>208</x>
+    <y>121</y>
+    <width>55</width>
+    <height>104</height>
+    <widget type="textentry" version="3.0.0">
+      <name>Text Update_39</name>
+      <width>35</width>
+      <height>28</height>
+      <background_color>
+        <color name="Background" red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <precision>0</precision>
+      <horizontal_alignment>1</horizontal_alignment>
+      <wrap_words>true</wrap_words>
+    </widget>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_93</name>
+    <text>supply pressure [psi]</text>
+    <x>17</x>
+    <y>164</y>
+    <width>142</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>2</horizontal_alignment>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_94</name>
+    <text>supply temperature [°C]</text>
+    <y>136</y>
+    <width>159</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>2</horizontal_alignment>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_95</name>
+    <text>supply flow [l/min]</text>
+    <x>36</x>
+    <y>192</y>
+    <width>123</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_237</name>
+    <text>low</text>
+    <x>173</x>
+    <y>95</y>
+    <width>24</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+  </widget>
+  <widget type="array" version="2.0.0">
+    <name>T hi_5</name>
+    <pv_name>hcnps_CZ_coolant_T_P_flow_lo_limit</pv_name>
+    <x>158</x>
+    <y>122</y>
+    <width>55</width>
+    <height>104</height>
+    <widget type="textentry" version="3.0.0">
+      <name>Text Update_40</name>
+      <width>35</width>
+      <height>28</height>
+      <background_color>
+        <color name="Background" red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <precision>0</precision>
+      <horizontal_alignment>1</horizontal_alignment>
+      <wrap_words>true</wrap_words>
+    </widget>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_238</name>
+    <text>Alarm limit</text>
+    <x>173</x>
+    <y>79</y>
+    <width>73</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_239</name>
+    <text>high</text>
+    <x>759</x>
+    <y>93</y>
+    <width>30</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+  </widget>
+  <widget type="array" version="2.0.0">
+    <name>T hi_6</name>
+    <pv_name>hcnps_EZ_coolant_T_P_flow_hi_limit</pv_name>
+    <x>748</x>
+    <y>120</y>
+    <width>55</width>
+    <height>104</height>
+    <widget type="textentry" version="3.0.0">
+      <name>Text Update_41</name>
+      <width>35</width>
+      <height>28</height>
+      <background_color>
+        <color name="Background" red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <precision>0</precision>
+      <horizontal_alignment>1</horizontal_alignment>
+      <wrap_words>true</wrap_words>
+    </widget>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_240</name>
+    <text>low</text>
+    <x>713</x>
+    <y>94</y>
+    <width>24</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_241</name>
+    <text>Alarm limit</text>
+    <x>713</x>
+    <y>78</y>
+    <width>73</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+  </widget>
+  <widget type="array" version="2.0.0">
+    <name>aver enable_3</name>
+    <pv_name>hcnps_CZ_coolant_T_P_flow_sensor_enable</pv_name>
+    <x>258</x>
+    <y>121</y>
+    <width>85</width>
+    <height>104</height>
+    <widget type="bool_button" version="2.0.0">
+      <name>Boolean Button_10</name>
+      <width>65</width>
+      <height>28</height>
+      <on_label>Enabled</on_label>
+      <show_led>false</show_led>
+    </widget>
+  </widget>
+  <widget type="array" version="2.0.0">
+    <name>T hi_7</name>
+    <pv_name>hcnps_EZ_coolant_T_P_flow_low_limit</pv_name>
+    <x>698</x>
+    <y>121</y>
+    <width>55</width>
+    <height>104</height>
+    <widget type="textentry" version="3.0.0">
+      <name>Text Update_42</name>
+      <width>35</width>
+      <height>28</height>
+      <background_color>
+        <color name="Background" red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <precision>0</precision>
+      <horizontal_alignment>1</horizontal_alignment>
+      <wrap_words>true</wrap_words>
+    </widget>
+  </widget>
+  <widget type="array" version="2.0.0">
+    <name>T hi_2</name>
+    <pv_name>hcnps_CZ_coolant_trip_delay_value</pv_name>
+    <x>639</x>
+    <y>121</y>
+    <width>55</width>
+    <height>104</height>
+    <widget type="textentry" version="3.0.0">
+      <name>Text Update_37</name>
+      <width>35</width>
+      <height>28</height>
+      <background_color>
+        <color name="Background" red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <precision>0</precision>
+      <horizontal_alignment>1</horizontal_alignment>
+      <wrap_words>true</wrap_words>
+    </widget>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_263</name>
+    <text>Trip delay time [s]</text>
+    <x>634</x>
+    <y>77</y>
+    <width>71</width>
+    <height>39</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+  </widget>
+  <widget type="array" version="2.0.0">
+    <name>T hi_8</name>
+    <pv_name>hcnps_EZ_coolant_trip_delay_value</pv_name>
+    <x>1187</x>
+    <y>121</y>
+    <width>55</width>
+    <height>104</height>
+    <widget type="textentry" version="3.0.0">
+      <name>Text Update_43</name>
+      <width>35</width>
+      <height>28</height>
+      <background_color>
+        <color name="Background" red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <precision>0</precision>
+      <horizontal_alignment>1</horizontal_alignment>
+      <wrap_words>true</wrap_words>
+    </widget>
+  </widget>
+</display>

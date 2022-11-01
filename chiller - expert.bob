@@ -1,0 +1,686 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display version="2.0.0">
+  <name>chiller expert</name>
+  <width>810</width>
+  <height>550</height>
+  <widget type="rectangle" version="2.0.0">
+    <name>Rectangle_6</name>
+    <x>10</x>
+    <y>44</y>
+    <width>389</width>
+    <height>454</height>
+    <line_width>5</line_width>
+    <line_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Read_Background" red="240" green="240" blue="240">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_137</name>
+    <text>NPS Chiller- Expert</text>
+    <x>339</x>
+    <y>16</y>
+    <width>166</width>
+    <height>21</height>
+    <font>
+      <font name="Header 2" family="Liberation Sans" style="BOLD" size="18.0">
+      </font>
+    </font>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="array" version="2.0.0">
+    <name>Array</name>
+    <pv_name>hcnps_chiller_CZ_indicators</pv_name>
+    <x>141</x>
+    <y>115</y>
+    <width>50</width>
+    <height>244</height>
+    <widget type="led" version="2.0.0">
+      <name>LED</name>
+      <width>30</width>
+      <height>28</height>
+    </widget>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_138</name>
+    <text>celsius display</text>
+    <x>23</x>
+    <y>128</y>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>2</horizontal_alignment>
+    <auto_size>true</auto_size>
+    <tooltip>On if chiller display is in celsius, otherwise is fahrenheit</tooltip>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_139</name>
+    <text>cool valve</text>
+    <x>23</x>
+    <y>157</y>
+    <width>68</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>2</horizontal_alignment>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_140</name>
+    <text>condenser relay</text>
+    <x>23</x>
+    <y>186</y>
+    <width>108</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>2</horizontal_alignment>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_141</name>
+    <text>autopilot</text>
+    <x>23</x>
+    <y>215</y>
+    <width>60</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>2</horizontal_alignment>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_142</name>
+    <text>heater</text>
+    <x>23</x>
+    <y>244</y>
+    <width>43</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>2</horizontal_alignment>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_143</name>
+    <text>expansion relay 1</text>
+    <x>23</x>
+    <y>273</y>
+    <width>118</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>2</horizontal_alignment>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_144</name>
+    <text>expansion relay 2</text>
+    <x>23</x>
+    <y>302</y>
+    <width>118</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>2</horizontal_alignment>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_145</name>
+    <text>machine on/off</text>
+    <x>23</x>
+    <y>331</y>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>2</horizontal_alignment>
+    <auto_size>true</auto_size>
+    <tooltip>Lights if chiller is on</tooltip>
+  </widget>
+  <widget type="array" version="2.0.0">
+    <name>Array_1</name>
+    <pv_name>hcnps_chiller_CZ_alarms</pv_name>
+    <x>339</x>
+    <y>115</y>
+    <width>50</width>
+    <height>244</height>
+    <widget type="led" version="2.0.0">
+      <name>LED_1</name>
+      <width>30</width>
+      <height>28</height>
+    </widget>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_146</name>
+    <text>summary alarm</text>
+    <x>231</x>
+    <y>128</y>
+    <width>104</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>2</horizontal_alignment>
+    <auto_size>true</auto_size>
+    <tooltip>Lights if any other LED in column lights up</tooltip>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_147</name>
+    <text>audible alarm</text>
+    <x>231</x>
+    <y>157</y>
+    <width>91</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>2</horizontal_alignment>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_150</name>
+    <text>low level</text>
+    <x>231</x>
+    <y>244</y>
+    <width>59</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>2</horizontal_alignment>
+    <auto_size>true</auto_size>
+    <tooltip>Lights if chiller fluid level is too low</tooltip>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_151</name>
+    <text>low flow</text>
+    <x>231</x>
+    <y>273</y>
+    <width>56</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>2</horizontal_alignment>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_152</name>
+    <text>low temp</text>
+    <x>231</x>
+    <y>302</y>
+    <width>61</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>2</horizontal_alignment>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_153</name>
+    <text>over temp</text>
+    <x>231</x>
+    <y>331</y>
+    <width>67</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>2</horizontal_alignment>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_154</name>
+    <text>chiller temperature [°C]</text>
+    <x>23</x>
+    <y>384</y>
+    <width>155</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>2</horizontal_alignment>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update</name>
+    <pv_name>hcnps_chiller_CZ_read_chiller_temp</pv_name>
+    <x>191</x>
+    <y>384</y>
+    <width>35</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_155</name>
+    <text>chiller pressure [psi]</text>
+    <x>23</x>
+    <y>425</y>
+    <width>138</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>2</horizontal_alignment>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_1</name>
+    <pv_name>hcnps_chiller_CZ_read_pressure</pv_name>
+    <x>191</x>
+    <y>419</y>
+    <width>35</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_2</name>
+    <pv_name>hcnps_chiller_CZ_read_set_temp</pv_name>
+    <x>191</x>
+    <y>453</y>
+    <width>35</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_156</name>
+    <text>set temperature [°C]</text>
+    <x>23</x>
+    <y>459</y>
+    <width>134</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>2</horizontal_alignment>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_3</name>
+    <pv_name>sys://time</pv_name>
+    <x>22</x>
+    <y>509</y>
+    <width>244</width>
+    <background_color>
+      <color name="Header_ForeGround" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <wrap_words>false</wrap_words>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_148</name>
+    <text>Crystal Zone Chiller</text>
+    <x>118</x>
+    <y>62</y>
+    <width>171</width>
+    <height>21</height>
+    <font>
+      <font name="Header 2" family="Liberation Sans" style="BOLD" size="18.0">
+      </font>
+    </font>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>Rectangle_7</name>
+    <x>408</x>
+    <y>44</y>
+    <width>389</width>
+    <height>454</height>
+    <line_width>5</line_width>
+    <line_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Read_Background" red="240" green="240" blue="240">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="array" version="2.0.0">
+    <name>Array_2</name>
+    <pv_name>hcnps_chiller_EZ_indicators</pv_name>
+    <x>539</x>
+    <y>115</y>
+    <width>50</width>
+    <height>244</height>
+    <widget type="led" version="2.0.0">
+      <name>LED_2</name>
+      <width>30</width>
+      <height>28</height>
+    </widget>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_149</name>
+    <text>celsius display</text>
+    <x>421</x>
+    <y>128</y>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>2</horizontal_alignment>
+    <auto_size>true</auto_size>
+    <tooltip>On if chiller display is in celsius, otherwise is fahrenheit</tooltip>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_157</name>
+    <text>cool valve</text>
+    <x>421</x>
+    <y>157</y>
+    <width>68</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>2</horizontal_alignment>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_158</name>
+    <text>condenser relay</text>
+    <x>421</x>
+    <y>186</y>
+    <width>108</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>2</horizontal_alignment>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_159</name>
+    <text>autopilot</text>
+    <x>421</x>
+    <y>215</y>
+    <width>60</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>2</horizontal_alignment>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_160</name>
+    <text>heater</text>
+    <x>421</x>
+    <y>244</y>
+    <width>43</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>2</horizontal_alignment>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_161</name>
+    <text>expansion relay 1</text>
+    <x>421</x>
+    <y>273</y>
+    <width>118</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>2</horizontal_alignment>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_162</name>
+    <text>expansion relay 2</text>
+    <x>421</x>
+    <y>302</y>
+    <width>118</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>2</horizontal_alignment>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_163</name>
+    <text>machine on/off</text>
+    <x>421</x>
+    <y>331</y>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>2</horizontal_alignment>
+    <auto_size>true</auto_size>
+    <tooltip>Lights if chiller is on</tooltip>
+  </widget>
+  <widget type="array" version="2.0.0">
+    <name>Array_3</name>
+    <pv_name>hcnps_chiller_EZ_alarms</pv_name>
+    <x>737</x>
+    <y>115</y>
+    <width>50</width>
+    <height>244</height>
+    <widget type="led" version="2.0.0">
+      <name>LED_3</name>
+      <width>30</width>
+      <height>28</height>
+    </widget>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_164</name>
+    <text>summary alarm</text>
+    <x>629</x>
+    <y>128</y>
+    <width>104</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>2</horizontal_alignment>
+    <auto_size>true</auto_size>
+    <tooltip>Lights if any other LED in column lights up</tooltip>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_165</name>
+    <text>audible alarm</text>
+    <x>629</x>
+    <y>157</y>
+    <width>91</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>2</horizontal_alignment>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_166</name>
+    <text>low level</text>
+    <x>629</x>
+    <y>244</y>
+    <width>59</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>2</horizontal_alignment>
+    <auto_size>true</auto_size>
+    <tooltip>Lights if chiller fluid level is too low</tooltip>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_167</name>
+    <text>low flow</text>
+    <x>629</x>
+    <y>273</y>
+    <width>56</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>2</horizontal_alignment>
+    <auto_size>true</auto_size>
+    <tooltip>Lights if chiller flow rate is too low</tooltip>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_168</name>
+    <text>low temp</text>
+    <x>629</x>
+    <y>302</y>
+    <width>61</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>2</horizontal_alignment>
+    <auto_size>true</auto_size>
+    <tooltip>Lights if coolant temp below threshold</tooltip>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_169</name>
+    <text>over temp</text>
+    <x>629</x>
+    <y>331</y>
+    <width>67</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>2</horizontal_alignment>
+    <auto_size>true</auto_size>
+    <tooltip>Lights if coolant temp over threshold</tooltip>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_170</name>
+    <text>chiller temperature [°C]</text>
+    <x>421</x>
+    <y>384</y>
+    <width>155</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>2</horizontal_alignment>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_4</name>
+    <pv_name>hcnps_chiller_EZ_read_chiller_temp</pv_name>
+    <x>589</x>
+    <y>384</y>
+    <width>35</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_171</name>
+    <text>chiller pressure [psi]</text>
+    <x>421</x>
+    <y>425</y>
+    <width>138</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>2</horizontal_alignment>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_5</name>
+    <pv_name>hcnps_chiller_EZ_read_pressure</pv_name>
+    <x>589</x>
+    <y>419</y>
+    <width>35</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_6</name>
+    <pv_name>hcnps_chiller_ EZ_read_set_temp</pv_name>
+    <x>589</x>
+    <y>453</y>
+    <width>35</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_172</name>
+    <text>set temperature [°C]</text>
+    <x>421</x>
+    <y>459</y>
+    <width>134</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>2</horizontal_alignment>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_173</name>
+    <text>Electronics Zone Chiller</text>
+    <x>497</x>
+    <y>62</y>
+    <width>207</width>
+    <height>21</height>
+    <font>
+      <font name="Header 2" family="Liberation Sans" style="BOLD" size="18.0">
+      </font>
+    </font>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+  </widget>
+</display>

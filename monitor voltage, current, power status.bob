@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display version="2.0.0">
+  <name>Display</name>
+  <width>80</width>
+  <height>80</height>
+  <widget type="rectangle" version="2.0.0">
+    <name>Rectangle_1</name>
+    <macros>
+      <pv_name></pv_name>
+    </macros>
+    <width>80</width>
+    <height>80</height>
+    <line_width>0</line_width>
+    <line_color>
+      <color red="128" green="0" blue="255">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="0" green="0" blue="0">
+      </color>
+    </background_color>
+    <actions>
+    </actions>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_1</name>
+    <text>$(h)</text>
+    <width>80</width>
+    <foreground_color>
+      <color red="255" green="255" blue="255">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="0" green="0" blue="0">
+      </color>
+    </background_color>
+    <transparent>false</transparent>
+    <horizontal_alignment>1</horizontal_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update</name>
+    <pv_name>hchv$(cr):$(sl):$(ch):VMon</pv_name>
+    <y>40</y>
+    <width>80</width>
+    <height>18</height>
+    <background_color>
+      <color red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_2</name>
+    <pv_name>hchv$(cr):$(sl):$(ch):IMon</pv_name>
+    <y>60</y>
+    <width>80</width>
+    <height>18</height>
+    <background_color>
+      <color red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_1</name>
+    <pv_name>hchv$(cr):$(sl):$(ch):Pw</pv_name>
+    <x>12</x>
+    <y>19</y>
+    <width>56</width>
+    <height>16</height>
+    <off_label>Off</off_label>
+    <off_color>
+      <color red="255" green="0" blue="0">
+      </color>
+    </off_color>
+    <on_label>On</on_label>
+    <square>true</square>
+    <actions>
+    </actions>
+    <rules>
+      <rule name="color" prop_id="on_color" out_exp="false">
+        <exp bool_exp="pv1 &lt; (pv0 - 10) &amp;&amp; pv4 == 1">
+          <value>
+            <color red="0" green="255" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="pv1 &lt; (pv0 - 10) &amp;&amp; pv4 == 0">
+          <value>
+            <color red="255" green="200" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="pv1 &gt; (pv0 + 10) &amp;&amp; pv4 == 1">
+          <value>
+            <color red="0" green="255" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="pv1 &gt; (pv0 + 10) &amp;&amp; pv4 == 0">
+          <value>
+            <color red="255" green="200" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="pv2 == 512 &amp;&amp; pv4 == 1">
+          <value>
+            <color red="0" green="255" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="pv2 == 512 &amp;&amp; pv4 == 0">
+          <value>
+            <color red="255" green="200" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="pv3 &gt; 65 &amp;&amp; pv4 == 1">
+          <value>
+            <color red="0" green="255" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="pv3 &gt; 65 &amp;&amp; pv4 == 0">
+          <value>
+            <color red="255" green="200" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>hchv$(cr):$(sl):$(ch):V0Set</pv_name>
+        <pv_name>hchv$(cr):$(sl):$(ch):VMon</pv_name>
+        <pv_name>hchv$(cr):$(sl):$(ch):Status</pv_name>
+        <pv_name>hchv$(cr):$(sl):Temp</pv_name>
+        <pv_name>sim://flipflop(.5)</pv_name>
+      </rule>
+      <rule name="label" prop_id="on_label" out_exp="false">
+        <exp bool_exp="pv0 == 512">
+          <value>Trip</value>
+        </exp>
+        <exp bool_exp="pv2 &lt; (pv1 - 10)">
+          <value>Mismatch</value>
+        </exp>
+        <exp bool_exp="pv2 &gt; (pv1 + 10)">
+          <value>Mismatch</value>
+        </exp>
+        <exp bool_exp="pv3 &gt; 65">
+          <value>OVTemp</value>
+        </exp>
+        <pv_name>hchv$(cr):$(sl):$(ch):Status</pv_name>
+        <pv_name>hchv$(cr):$(sl):$(ch):V0Set</pv_name>
+        <pv_name>hchv$(cr):$(sl):$(ch):VMon</pv_name>
+        <pv_name>hchv$(cr):$(sl):Temp</pv_name>
+      </rule>
+    </rules>
+    <tooltip></tooltip>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+</display>

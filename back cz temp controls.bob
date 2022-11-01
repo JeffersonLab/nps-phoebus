@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display version="2.0.0">
+  <name>Display</name>
+  <width>890</width>
+  <height>800</height>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display</name>
+    <macros>
+      <h>Back</h>
+    </macros>
+    <file>CZ temp. alarm limits.bob</file>
+    <width>877</width>
+    <height>789</height>
+  </widget>
+</display>
