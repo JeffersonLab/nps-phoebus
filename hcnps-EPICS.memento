@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<memento show_menu="true" show_statusbar="true" show_tabs="true" show_toolbar="true">
+    <DockStage_MAIN height="1032.0" width="1383.0" x="716.0" y="36.0">
+        <pane selected="0">
+            <DockItem_da8914b3_acd0_4326_8eb8_78b229a9cd0f application="display_runtime" input_uri="file:/home/cdsg/menu.bob" toolbar="true"/>
+        </pane>
+    </DockStage_MAIN>
+</memento>
