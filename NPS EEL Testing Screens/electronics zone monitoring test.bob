@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display version="2.0.0">
+  <name>EZ temps monitoring test</name>
+  <width>500</width>
+  <height>350</height>
+  <widget type="array" version="2.0.0">
+    <name>Array_8</name>
+    <pv_name>hcnps_EZ_cooling_T_hi_intlk_status</pv_name>
+    <x>309</x>
+    <y>71</y>
+    <width>50</width>
+    <height>244</height>
+    <widget type="led" version="2.0.0">
+      <name>LED (Multi State)</name>
+      <width>30</width>
+      <height>28</height>
+      <off_color>
+        <color name="OK" red="0" green="255" blue="0">
+        </color>
+      </off_color>
+      <on_color>
+        <color name="STOP" red="255" green="0" blue="0">
+        </color>
+      </on_color>
+    </widget>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_9</name>
+    <text>Electronics Zone Temperature Sensor Monitoring [°C]</text>
+    <x>15</x>
+    <y>6</y>
+    <width>461</width>
+    <height>21</height>
+    <font>
+      <font name="Header 2" family="Liberation Sans" style="BOLD" size="18.0">
+      </font>
+    </font>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_16</name>
+    <text>T </text>
+    <x>223</x>
+    <y>51</y>
+    <width>13</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_17</name>
+    <text>Avg</text>
+    <x>267</x>
+    <y>50</y>
+    <width>27</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+  </widget>
+  <widget type="array" version="2.0.0">
+    <name>Array_16</name>
+    <pv_name>hcnps_EZ_cooling_T_avg</pv_name>
+    <x>254</x>
+    <y>71</y>
+    <width>55</width>
+    <height>244</height>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_1</name>
+      <width>35</width>
+      <height>28</height>
+      <precision>2</precision>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+  </widget>
+  <widget type="array" version="2.0.0">
+    <name>Array_17</name>
+    <pv_name>hcnps_EZ_cooling_T</pv_name>
+    <x>203</x>
+    <y>71</y>
+    <width>55</width>
+    <height>244</height>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update</name>
+      <width>35</width>
+      <height>28</height>
+      <precision>2</precision>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_100</name>
+    <text>inlet manifold 1</text>
+    <x>91</x>
+    <y>85</y>
+    <width>103</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>2</horizontal_alignment>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_101</name>
+    <text>inlet manifold 2</text>
+    <x>91</x>
+    <y>113</y>
+    <width>103</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>2</horizontal_alignment>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_102</name>
+    <text>outlet manifold 1</text>
+    <x>82</x>
+    <y>141</y>
+    <width>112</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>2</horizontal_alignment>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_103</name>
+    <text>outlet manifold 2</text>
+    <x>82</x>
+    <y>169</y>
+    <width>112</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>2</horizontal_alignment>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_104</name>
+    <text>heat exchanger top 1</text>
+    <x>53</x>
+    <y>197</y>
+    <width>141</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>2</horizontal_alignment>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_105</name>
+    <text>heat exchanger top 2</text>
+    <x>53</x>
+    <y>225</y>
+    <width>141</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>2</horizontal_alignment>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_106</name>
+    <text>heat exchanger bottom 1</text>
+    <x>28</x>
+    <y>253</y>
+    <width>166</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>2</horizontal_alignment>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_107</name>
+    <text>heat exchanger bottom 2</text>
+    <x>28</x>
+    <y>281</y>
+    <width>166</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>2</horizontal_alignment>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_108</name>
+    <text>Sensor</text>
+    <x>145</x>
+    <y>51</y>
+    <width>49</width>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_3</name>
+    <pv_name>sys://time</pv_name>
+    <x>28</x>
+    <y>315</y>
+    <width>130</width>
+    <background_color>
+      <color name="Header_ForeGround" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <wrap_words>false</wrap_words>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_14</name>
+    <text>Out of limit</text>
+    <x>318</x>
+    <y>33</y>
+    <width>74</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>2</vertical_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_19</name>
+    <text>low</text>
+    <x>368</x>
+    <y>49</y>
+    <width>24</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_21</name>
+    <text>high</text>
+    <x>318</x>
+    <y>50</y>
+    <width>30</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+  </widget>
+  <widget type="array" version="2.0.0">
+    <name>Array_9</name>
+    <pv_name>hcnps_EZ_cooling_T_lo_intlk_status</pv_name>
+    <x>356</x>
+    <y>71</y>
+    <width>50</width>
+    <height>244</height>
+    <widget type="led" version="2.0.0">
+      <name>LED (Multi State)_1</name>
+      <width>30</width>
+      <height>28</height>
+      <off_color>
+        <color name="OK" red="0" green="255" blue="0">
+        </color>
+      </off_color>
+      <on_color>
+        <color name="STOP" red="255" green="0" blue="0">
+        </color>
+      </on_color>
+    </widget>
+  </widget>
+</display>

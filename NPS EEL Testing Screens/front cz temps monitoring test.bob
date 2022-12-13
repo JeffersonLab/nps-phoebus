@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display version="2.0.0">
+  <name>Display</name>
+  <height>880</height>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display</name>
+    <macros>
+      <h>Front</h>
+    </macros>
+    <file>CZ temps monitoring test.bob</file>
+    <width>690</width>
+    <height>985</height>
+  </widget>
+</display>

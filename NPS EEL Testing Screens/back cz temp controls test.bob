@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display version="2.0.0">
+  <name>back crystal zone controls test</name>
+  <width>500</width>
+  <height>800</height>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display</name>
+    <macros>
+      <h>Back</h>
+    </macros>
+    <file>CZ temps controls test.bob</file>
+    <width>1386</width>
+    <height>1025</height>
+  </widget>
+</display>

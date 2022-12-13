@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display version="2.0.0">
+  <name>CZ cooling circuit controls test</name>
+  <width>300</width>
+  <height>275</height>
+  <widget type="label" version="2.0.0">
+    <name>Label_9</name>
+    <text>Crystal Zone Cooling Circuit Temperature Sensor Controls </text>
+    <x>11</x>
+    <width>260</width>
+    <height>57</height>
+    <font>
+      <font name="Header 2" family="Liberation Sans" style="BOLD" size="18.0">
+      </font>
+    </font>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_92</name>
+    <text>Inlet manifold 1</text>
+    <x>18</x>
+    <y>127</y>
+    <width>103</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>2</horizontal_alignment>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_93</name>
+    <text>Inlet manifold 2</text>
+    <x>18</x>
+    <y>155</y>
+    <width>103</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>2</horizontal_alignment>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_94</name>
+    <text>Outlet manifold 1</text>
+    <x>9</x>
+    <y>186</y>
+    <width>115</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>2</horizontal_alignment>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_95</name>
+    <text>Outlet manifold 2</text>
+    <x>9</x>
+    <y>214</y>
+    <width>115</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>2</horizontal_alignment>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="array" version="2.0.0">
+    <name>hi</name>
+    <pv_name>hcnps_CZ_cooling_T_hi_limit</pv_name>
+    <x>178</x>
+    <y>113</y>
+    <width>55</width>
+    <height>132</height>
+    <widget type="textentry" version="3.0.0">
+      <name>Text entry</name>
+      <width>35</width>
+      <height>28</height>
+      <background_color>
+        <color name="Background" red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <precision>0</precision>
+      <horizontal_alignment>1</horizontal_alignment>
+      <wrap_words>true</wrap_words>
+    </widget>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_15</name>
+    <text>Sensor</text>
+    <x>48</x>
+    <y>85</y>
+    <width>48</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update</name>
+    <x>743</x>
+    <y>235</y>
+    <width>1</width>
+    <height>1</height>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_1</name>
+    <pv_name>sys://time</pv_name>
+    <x>18</x>
+    <y>245</y>
+    <width>244</width>
+    <background_color>
+      <color name="Header_ForeGround" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <wrap_words>false</wrap_words>
+  </widget>
+  <widget type="array" version="2.0.0">
+    <name>hi_1</name>
+    <pv_name>hcnps_CZ_cooling_T_lo_limit</pv_name>
+    <x>126</x>
+    <y>113</y>
+    <width>55</width>
+    <height>132</height>
+    <widget type="textentry" version="3.0.0">
+      <name>Text entry_1</name>
+      <width>35</width>
+      <height>28</height>
+      <background_color>
+        <color name="Background" red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <precision>0</precision>
+      <horizontal_alignment>1</horizontal_alignment>
+      <wrap_words>true</wrap_words>
+    </widget>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_236</name>
+    <text>high</text>
+    <x>189</x>
+    <y>85</y>
+    <width>30</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_237</name>
+    <text>low</text>
+    <x>143</x>
+    <y>86</y>
+    <width>24</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_238</name>
+    <text>Alarm limit</text>
+    <x>143</x>
+    <y>70</y>
+    <width>73</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+  </widget>
+</display>

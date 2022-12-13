@@ -1,0 +1,661 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display version="2.0.0">
+  <name>detector frame monitoring test</name>
+  <width>850</width>
+  <height>425</height>
+  <widget type="array" version="2.0.0">
+    <name>RH status</name>
+    <pv_name>hcnps_DF_RH_hi_intlk_status</pv_name>
+    <x>430</x>
+    <y>112</y>
+    <width>50</width>
+    <height>244</height>
+    <widget type="led" version="2.0.0">
+      <name>LED (Multi State)_1</name>
+      <width>30</width>
+      <height>28</height>
+      <off_color>
+        <color name="OK" red="0" green="255" blue="0">
+        </color>
+      </off_color>
+      <on_color>
+        <color name="STOP" red="255" green="0" blue="0">
+        </color>
+      </on_color>
+    </widget>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_9</name>
+    <text>Temperatures [°C]</text>
+    <x>105</x>
+    <y>48</y>
+    <width>139</width>
+    <height>18</height>
+    <font>
+      <font name="Header 3" family="Liberation Sans" style="BOLD" size="16.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color red="0" green="0" blue="255">
+      </color>
+    </foreground_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_11</name>
+    <text>T</text>
+    <x>94</x>
+    <y>90</y>
+    <width>9</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_12</name>
+    <text>Avg</text>
+    <x>137</x>
+    <y>90</y>
+    <width>27</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_16</name>
+    <text>RH</text>
+    <x>341</x>
+    <y>90</y>
+    <width>21</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_17</name>
+    <text>Avg</text>
+    <x>389</x>
+    <y>90</y>
+    <width>27</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+  </widget>
+  <widget type="array" version="2.0.0">
+    <name>temp status</name>
+    <pv_name>hcnps_DF_T_hi_intlk_status</pv_name>
+    <x>177</x>
+    <y>111</y>
+    <width>50</width>
+    <height>244</height>
+    <widget type="led" version="2.0.0">
+      <name>LED (Multi State)_2</name>
+      <width>30</width>
+      <height>28</height>
+      <off_color>
+        <color name="OK" red="0" green="255" blue="0">
+        </color>
+      </off_color>
+      <on_color>
+        <color name="STOP" red="255" green="0" blue="0">
+        </color>
+      </on_color>
+    </widget>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_92</name>
+    <text>frame 1</text>
+    <x>11</x>
+    <y>125</y>
+    <width>50</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>2</horizontal_alignment>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_93</name>
+    <text>frame 2</text>
+    <x>11</x>
+    <y>153</y>
+    <width>50</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>2</horizontal_alignment>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_94</name>
+    <text>frame 3</text>
+    <x>11</x>
+    <y>181</y>
+    <width>50</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>2</horizontal_alignment>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_95</name>
+    <text>frame 4</text>
+    <x>11</x>
+    <y>209</y>
+    <width>50</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>2</horizontal_alignment>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_96</name>
+    <text>frame 5</text>
+    <x>11</x>
+    <y>237</y>
+    <width>50</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>2</horizontal_alignment>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_97</name>
+    <text>frame 6</text>
+    <x>11</x>
+    <y>265</y>
+    <width>50</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>2</horizontal_alignment>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_98</name>
+    <text>frame 7</text>
+    <x>11</x>
+    <y>293</y>
+    <width>50</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>2</horizontal_alignment>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_99</name>
+    <text>frame 8</text>
+    <x>11</x>
+    <y>321</y>
+    <width>50</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>2</horizontal_alignment>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="array" version="2.0.0">
+    <name>temp</name>
+    <pv_name>hcnps_DF_T</pv_name>
+    <x>71</x>
+    <y>110</y>
+    <width>55</width>
+    <height>244</height>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_16</name>
+      <width>35</width>
+      <height>28</height>
+      <precision>2</precision>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+  </widget>
+  <widget type="array" version="2.0.0">
+    <name>temp avg</name>
+    <pv_name>hcnps_DF_T_avg</pv_name>
+    <x>123</x>
+    <y>111</y>
+    <width>55</width>
+    <height>244</height>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_17</name>
+      <width>35</width>
+      <height>28</height>
+      <precision>2</precision>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+  </widget>
+  <widget type="array" version="2.0.0">
+    <name>RH avg</name>
+    <pv_name>hcnps_DF_RH_avg</pv_name>
+    <x>376</x>
+    <y>111</y>
+    <width>55</width>
+    <height>244</height>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_20</name>
+      <width>35</width>
+      <height>28</height>
+      <precision>2</precision>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+  </widget>
+  <widget type="array" version="2.0.0">
+    <name>humidity</name>
+    <pv_name>hcnps_DF_RH</pv_name>
+    <x>324</x>
+    <y>110</y>
+    <width>55</width>
+    <height>244</height>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_21</name>
+      <width>35</width>
+      <height>28</height>
+      <precision>2</precision>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_20</name>
+    <text>sensor</text>
+    <x>11</x>
+    <y>91</y>
+    <width>49</width>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_10</name>
+    <text>Humidity [RH]</text>
+    <x>375</x>
+    <y>48</y>
+    <width>107</width>
+    <height>19</height>
+    <font>
+      <font name="Header 3" family="Liberation Sans" style="BOLD" size="16.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color red="0" green="0" blue="255">
+      </color>
+    </foreground_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_137</name>
+    <text>Detector Frame Temperature, Humidity, and Dew Point Monitoring</text>
+    <x>132</x>
+    <y>10</y>
+    <width>566</width>
+    <height>21</height>
+    <font>
+      <font name="Header 2" family="Liberation Sans" style="BOLD" size="18.0">
+      </font>
+    </font>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="array" version="2.0.0">
+    <name>RH status_1</name>
+    <pv_name>hcnps_DF_DP_hi_intlk_status</pv_name>
+    <x>676</x>
+    <y>113</y>
+    <width>50</width>
+    <height>244</height>
+    <widget type="led" version="2.0.0">
+      <name>LED (Multi State)_5</name>
+      <width>30</width>
+      <height>28</height>
+      <off_color>
+        <color name="OK" red="0" green="255" blue="0">
+        </color>
+      </off_color>
+      <on_color>
+        <color name="STOP" red="255" green="0" blue="0">
+        </color>
+      </on_color>
+    </widget>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_21</name>
+    <text>DPT</text>
+    <x>582</x>
+    <y>91</y>
+    <width>28</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <wrap_words>false</wrap_words>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_22</name>
+    <text>Avg</text>
+    <x>629</x>
+    <y>91</y>
+    <width>37</width>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+  </widget>
+  <widget type="array" version="2.0.0">
+    <name>RH avg_1</name>
+    <pv_name>hcnps_DF_DP_avg</pv_name>
+    <x>621</x>
+    <y>112</y>
+    <width>55</width>
+    <height>244</height>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_30</name>
+      <width>35</width>
+      <height>28</height>
+      <precision>2</precision>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+  </widget>
+  <widget type="array" version="2.0.0">
+    <name>dew point</name>
+    <pv_name>hcnps_DF_DP</pv_name>
+    <x>570</x>
+    <y>111</y>
+    <width>55</width>
+    <height>244</height>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_31</name>
+      <width>35</width>
+      <height>28</height>
+      <precision>2</precision>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_25</name>
+    <text>Dew Point [°C]</text>
+    <x>615</x>
+    <y>48</y>
+    <width>111</width>
+    <height>19</height>
+    <font>
+      <font name="Header 3" family="Liberation Sans" style="BOLD" size="16.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color red="0" green="0" blue="255">
+      </color>
+    </foreground_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED</name>
+    <x>758</x>
+    <y>23</y>
+    <width>1</width>
+    <height>1</height>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update</name>
+    <pv_name>sys://time</pv_name>
+    <x>11</x>
+    <y>372</y>
+    <width>163</width>
+    <background_color>
+      <color name="Header_ForeGround" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <wrap_words>false</wrap_words>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_14</name>
+    <text>Out of limit</text>
+    <x>185</x>
+    <y>73</y>
+    <width>74</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>2</vertical_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_19</name>
+    <text>low</text>
+    <x>235</x>
+    <y>89</y>
+    <width>24</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_24</name>
+    <text>high</text>
+    <x>185</x>
+    <y>90</y>
+    <width>30</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_26</name>
+    <text>Out of limit</text>
+    <x>440</x>
+    <y>74</y>
+    <width>74</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>2</vertical_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_27</name>
+    <text>low</text>
+    <x>490</x>
+    <y>90</y>
+    <width>24</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_28</name>
+    <text>high</text>
+    <x>440</x>
+    <y>91</y>
+    <width>30</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_29</name>
+    <text>Out of limit</text>
+    <x>686</x>
+    <y>77</y>
+    <width>74</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>2</vertical_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_30</name>
+    <text>low</text>
+    <x>736</x>
+    <y>93</y>
+    <width>24</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_31</name>
+    <text>high</text>
+    <x>686</x>
+    <y>94</y>
+    <width>30</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+  </widget>
+  <widget type="array" version="2.0.0">
+    <name>temp status_1</name>
+    <pv_name>hcnps_DF_T_lo_intlk_status</pv_name>
+    <x>223</x>
+    <y>111</y>
+    <width>50</width>
+    <height>244</height>
+    <widget type="led" version="2.0.0">
+      <name>LED (Multi State)_3</name>
+      <width>30</width>
+      <height>28</height>
+      <off_color>
+        <color name="OK" red="0" green="255" blue="0">
+        </color>
+      </off_color>
+      <on_color>
+        <color name="STOP" red="255" green="0" blue="0">
+        </color>
+      </on_color>
+    </widget>
+  </widget>
+  <widget type="array" version="2.0.0">
+    <name>RH status_2</name>
+    <pv_name>hcnps_DF_RH_lo_intlk_status</pv_name>
+    <x>478</x>
+    <y>112</y>
+    <width>50</width>
+    <height>244</height>
+    <widget type="led" version="2.0.0">
+      <name>LED (Multi State)_4</name>
+      <width>30</width>
+      <height>28</height>
+      <off_color>
+        <color name="OK" red="0" green="255" blue="0">
+        </color>
+      </off_color>
+      <on_color>
+        <color name="STOP" red="255" green="0" blue="0">
+        </color>
+      </on_color>
+    </widget>
+  </widget>
+  <widget type="array" version="2.0.0">
+    <name>RH status_3</name>
+    <pv_name>hcnps_DF_DP_lo_intlk_status</pv_name>
+    <x>723</x>
+    <y>113</y>
+    <width>50</width>
+    <height>244</height>
+    <widget type="led" version="2.0.0">
+      <name>LED (Multi State)_6</name>
+      <width>30</width>
+      <height>28</height>
+      <off_color>
+        <color name="OK" red="0" green="255" blue="0">
+        </color>
+      </off_color>
+      <on_color>
+        <color name="STOP" red="255" green="0" blue="0">
+        </color>
+      </on_color>
+    </widget>
+  </widget>
+</display>

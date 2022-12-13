@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display version="2.0.0">
+  <name>CZ cooling circuit monitoring test</name>
+  <width>425</width>
+  <height>275</height>
+  <widget type="label" version="2.0.0">
+    <name>Label_9</name>
+    <text>Crystal Zone Cooling Circuit Temperature Sensor Monitoring [°C]</text>
+    <x>12</x>
+    <width>402</width>
+    <height>50</height>
+    <font>
+      <font name="Header 2" family="Liberation Sans" style="BOLD" size="18.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_11</name>
+    <text>T</text>
+    <x>164</x>
+    <y>71</y>
+    <width>9</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_12</name>
+    <text>Avg</text>
+    <x>205</x>
+    <y>71</y>
+    <width>27</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+  </widget>
+  <widget type="array" version="2.0.0">
+    <name>temp status</name>
+    <pv_name>hcnps_CZ_cooling_T_hi_intlk_status</pv_name>
+    <x>245</x>
+    <y>92</y>
+    <width>50</width>
+    <height>132</height>
+    <widget type="led" version="2.0.0">
+      <name>LED (Multi State)_2</name>
+      <width>30</width>
+      <height>28</height>
+      <off_color>
+        <color name="OK" red="0" green="255" blue="0">
+        </color>
+      </off_color>
+      <on_color>
+        <color name="STOP" red="255" green="0" blue="0">
+        </color>
+      </on_color>
+    </widget>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_92</name>
+    <text>Inlet manifold 1</text>
+    <x>32</x>
+    <y>106</y>
+    <width>103</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>2</horizontal_alignment>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_93</name>
+    <text>Inlet manifold 2</text>
+    <x>32</x>
+    <y>134</y>
+    <width>103</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>2</horizontal_alignment>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_94</name>
+    <text>Outlet manifold 1</text>
+    <x>23</x>
+    <y>162</y>
+    <width>115</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>2</horizontal_alignment>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_95</name>
+    <text>Outlet manifold 2</text>
+    <x>23</x>
+    <y>190</y>
+    <width>115</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>2</horizontal_alignment>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="array" version="2.0.0">
+    <name>Array_13</name>
+    <pv_name>hcnps_CZ_cooling_T</pv_name>
+    <x>141</x>
+    <y>91</y>
+    <width>55</width>
+    <height>132</height>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_16</name>
+      <width>35</width>
+      <height>28</height>
+      <precision>2</precision>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_15</name>
+    <text>Sensor</text>
+    <x>88</x>
+    <y>71</y>
+    <width>48</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED</name>
+    <x>485</x>
+    <y>475</y>
+    <width>1</width>
+    <height>1</height>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>Rectangle</name>
+    <x>526</x>
+    <y>140</y>
+    <width>1</width>
+    <height>1</height>
+  </widget>
+  <widget type="array" version="2.0.0">
+    <name>Array_16</name>
+    <pv_name>hcnps_CZ_cooling_T_avg</pv_name>
+    <x>191</x>
+    <y>92</y>
+    <width>55</width>
+    <height>132</height>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_19</name>
+      <width>35</width>
+      <height>28</height>
+      <precision>2</precision>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update</name>
+    <pv_name>sys://time</pv_name>
+    <x>23</x>
+    <y>223</y>
+    <width>244</width>
+    <background_color>
+      <color name="Header_ForeGround" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <wrap_words>false</wrap_words>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_14</name>
+    <text>Out of limit</text>
+    <x>255</x>
+    <y>50</y>
+    <width>74</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>2</vertical_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_16</name>
+    <text>low</text>
+    <x>305</x>
+    <y>71</y>
+    <width>24</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_21</name>
+    <text>high</text>
+    <x>255</x>
+    <y>71</y>
+    <width>30</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+  </widget>
+  <widget type="array" version="2.0.0">
+    <name>temp status_1</name>
+    <pv_name>hcnps_CZ_cooling_T_lo_intlk_status</pv_name>
+    <x>293</x>
+    <y>92</y>
+    <width>50</width>
+    <height>132</height>
+    <widget type="led" version="2.0.0">
+      <name>LED (Multi State)_3</name>
+      <width>30</width>
+      <height>28</height>
+      <off_color>
+        <color name="OK" red="0" green="255" blue="0">
+        </color>
+      </off_color>
+      <on_color>
+        <color name="STOP" red="255" green="0" blue="0">
+        </color>
+      </on_color>
+    </widget>
+  </widget>
+</display>

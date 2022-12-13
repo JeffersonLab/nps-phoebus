@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display version="2.0.0">
+  <name>hall controls test</name>
+  <width>600</width>
+  <height>230</height>
+  <widget type="label" version="2.0.0">
+    <name>Label_136</name>
+    <text>Dew Point [°C]</text>
+    <x>414</x>
+    <y>43</y>
+    <width>111</width>
+    <height>19</height>
+    <font>
+      <font name="Header 3" family="Liberation Sans" style="BOLD" size="16.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color red="0" green="0" blue="255">
+      </color>
+    </foreground_color>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_191</name>
+    <text>Hall Temperature, Humidity, and Dew Point Controls</text>
+    <x>88</x>
+    <y>5</y>
+    <width>448</width>
+    <height>21</height>
+    <font>
+      <font name="Header 2" family="Liberation Sans" style="BOLD" size="18.0">
+      </font>
+    </font>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_196</name>
+    <text>sensor</text>
+    <x>4</x>
+    <y>101</y>
+    <width>49</width>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_197</name>
+    <text>1</text>
+    <x>39</x>
+    <y>135</y>
+    <width>8</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>2</horizontal_alignment>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_198</name>
+    <text>2</text>
+    <x>38</x>
+    <y>163</y>
+    <width>8</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>2</horizontal_alignment>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_215</name>
+    <text>Humidity [°RH]</text>
+    <x>232</x>
+    <y>43</y>
+    <width>114</width>
+    <height>18</height>
+    <font>
+      <font name="Header 3" family="Liberation Sans" style="BOLD" size="16.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color red="0" green="0" blue="255">
+      </color>
+    </foreground_color>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_216</name>
+    <text>Temperature [°C]</text>
+    <x>46</x>
+    <y>43</y>
+    <width>130</width>
+    <height>18</height>
+    <font>
+      <font name="Header 3" family="Liberation Sans" style="BOLD" size="16.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color red="0" green="0" blue="255">
+      </color>
+    </foreground_color>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+  </widget>
+  <widget type="array" version="2.0.0">
+    <name>T hi</name>
+    <pv_name>hcnps_hall_T_hi_limit</pv_name>
+    <x>101</x>
+    <y>121</y>
+    <width>55</width>
+    <height>76</height>
+    <widget type="textentry" version="3.0.0">
+      <name>Text Update_35</name>
+      <width>35</width>
+      <height>28</height>
+      <background_color>
+        <color name="Background" red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <precision>0</precision>
+      <horizontal_alignment>1</horizontal_alignment>
+      <wrap_words>true</wrap_words>
+    </widget>
+  </widget>
+  <widget type="array" version="2.0.0">
+    <name>T hi_2</name>
+    <pv_name>hcnps_hall_RH_hi_limit</pv_name>
+    <x>285</x>
+    <y>121</y>
+    <width>55</width>
+    <height>76</height>
+    <widget type="textentry" version="3.0.0">
+      <name>Text Update_37</name>
+      <width>35</width>
+      <height>28</height>
+      <background_color>
+        <color name="Background" red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <precision>0</precision>
+      <horizontal_alignment>1</horizontal_alignment>
+      <wrap_words>true</wrap_words>
+    </widget>
+  </widget>
+  <widget type="array" version="2.0.0">
+    <name>T hi_4</name>
+    <pv_name>hcnps_hall_DP_hi_limit</pv_name>
+    <x>468</x>
+    <y>121</y>
+    <width>55</width>
+    <height>76</height>
+    <widget type="textentry" version="3.0.0">
+      <name>Text Update_39</name>
+      <width>35</width>
+      <height>28</height>
+      <background_color>
+        <color name="Background" red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <precision>0</precision>
+      <horizontal_alignment>1</horizontal_alignment>
+      <wrap_words>true</wrap_words>
+    </widget>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update</name>
+    <pv_name>sys://time</pv_name>
+    <x>27</x>
+    <y>205</y>
+    <width>149</width>
+    <background_color>
+      <color name="Header_ForeGround" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <wrap_words>false</wrap_words>
+  </widget>
+  <widget type="array" version="2.0.0">
+    <name>T hi_6</name>
+    <pv_name>hcnps_hall_T_lo_limit</pv_name>
+    <x>50</x>
+    <y>121</y>
+    <width>55</width>
+    <height>76</height>
+    <widget type="textentry" version="3.0.0">
+      <name>Text Update_41</name>
+      <width>35</width>
+      <height>28</height>
+      <background_color>
+        <color name="Background" red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <precision>0</precision>
+      <horizontal_alignment>1</horizontal_alignment>
+      <wrap_words>true</wrap_words>
+    </widget>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_236</name>
+    <text>high</text>
+    <x>112</x>
+    <y>93</y>
+    <width>30</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_237</name>
+    <text>low</text>
+    <x>66</x>
+    <y>94</y>
+    <width>24</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_238</name>
+    <text>Alarm limit</text>
+    <x>66</x>
+    <y>78</y>
+    <width>73</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+  </widget>
+  <widget type="array" version="2.0.0">
+    <name>T hi_7</name>
+    <pv_name>hcnps_hall_RH_lo_limit</pv_name>
+    <x>235</x>
+    <y>121</y>
+    <width>55</width>
+    <height>76</height>
+    <widget type="textentry" version="3.0.0">
+      <name>Text Update_42</name>
+      <width>35</width>
+      <height>28</height>
+      <background_color>
+        <color name="Background" red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <precision>0</precision>
+      <horizontal_alignment>1</horizontal_alignment>
+      <wrap_words>true</wrap_words>
+    </widget>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_239</name>
+    <text>high</text>
+    <x>293</x>
+    <y>95</y>
+    <width>30</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_240</name>
+    <text>low</text>
+    <x>247</x>
+    <y>96</y>
+    <width>24</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_241</name>
+    <text>Alarm limit</text>
+    <x>247</x>
+    <y>80</y>
+    <width>73</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+  </widget>
+  <widget type="array" version="2.0.0">
+    <name>T hi_8</name>
+    <pv_name>hcnps_hall_DP_lo_limit</pv_name>
+    <x>417</x>
+    <y>121</y>
+    <width>55</width>
+    <height>76</height>
+    <widget type="textentry" version="3.0.0">
+      <name>Text Update_43</name>
+      <width>35</width>
+      <height>28</height>
+      <background_color>
+        <color name="Background" red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <precision>0</precision>
+      <horizontal_alignment>1</horizontal_alignment>
+      <wrap_words>true</wrap_words>
+    </widget>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_243</name>
+    <text>high</text>
+    <x>477</x>
+    <y>94</y>
+    <width>30</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_244</name>
+    <text>low</text>
+    <x>431</x>
+    <y>95</y>
+    <width>24</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_245</name>
+    <text>Alarm limit</text>
+    <x>431</x>
+    <y>79</y>
+    <width>73</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+  </widget>
+</display>

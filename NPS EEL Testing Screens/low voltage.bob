@@ -1,0 +1,2335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display version="2.0.0">
+  <name>low voltage</name>
+  <width>680</width>
+  <height>850</height>
+  <widget type="label" version="2.0.0">
+    <name>Label_191</name>
+    <text>Low Voltage Control and Monitoring</text>
+    <x>203</x>
+    <y>15</y>
+    <width>310</width>
+    <height>21</height>
+    <font>
+      <font name="Header 2" family="Liberation Sans" style="BOLD" size="18.0">
+      </font>
+    </font>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_194</name>
+    <text>2</text>
+    <x>91</x>
+    <y>644</y>
+    <width>8</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>2</horizontal_alignment>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_195</name>
+    <text>3</text>
+    <x>91</x>
+    <y>672</y>
+    <width>8</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>2</horizontal_alignment>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_196</name>
+    <text>Channel</text>
+    <x>67</x>
+    <y>91</y>
+    <width>56</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_197</name>
+    <text>0</text>
+    <x>91</x>
+    <y>117</y>
+    <width>8</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>2</horizontal_alignment>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_198</name>
+    <text>1</text>
+    <x>91</x>
+    <y>145</y>
+    <width>8</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>2</horizontal_alignment>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_199</name>
+    <text>2</text>
+    <x>91</x>
+    <y>173</y>
+    <width>8</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>2</horizontal_alignment>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_200</name>
+    <text>3</text>
+    <x>91</x>
+    <y>201</y>
+    <width>8</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>2</horizontal_alignment>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_201</name>
+    <text>4</text>
+    <x>91</x>
+    <y>229</y>
+    <width>8</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>2</horizontal_alignment>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_202</name>
+    <text>5</text>
+    <x>91</x>
+    <y>257</y>
+    <width>8</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>2</horizontal_alignment>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_203</name>
+    <text>6</text>
+    <x>91</x>
+    <y>285</y>
+    <width>8</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>2</horizontal_alignment>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_204</name>
+    <text>7</text>
+    <x>91</x>
+    <y>313</y>
+    <width>8</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>2</horizontal_alignment>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_205</name>
+    <text>0</text>
+    <x>91</x>
+    <y>353</y>
+    <width>8</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>2</horizontal_alignment>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_206</name>
+    <text>1</text>
+    <x>91</x>
+    <y>381</y>
+    <width>8</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>2</horizontal_alignment>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_207</name>
+    <text>2</text>
+    <x>91</x>
+    <y>409</y>
+    <width>8</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>2</horizontal_alignment>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_208</name>
+    <text>3</text>
+    <x>91</x>
+    <y>437</y>
+    <width>8</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>2</horizontal_alignment>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_209</name>
+    <text>4</text>
+    <x>91</x>
+    <y>465</y>
+    <width>8</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>2</horizontal_alignment>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_210</name>
+    <text>5</text>
+    <x>91</x>
+    <y>493</y>
+    <width>8</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>2</horizontal_alignment>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_211</name>
+    <text>6</text>
+    <x>91</x>
+    <y>521</y>
+    <width>8</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>2</horizontal_alignment>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_212</name>
+    <text>7</text>
+    <x>91</x>
+    <y>549</y>
+    <width>8</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>2</horizontal_alignment>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_213</name>
+    <text>0</text>
+    <x>91</x>
+    <y>590</y>
+    <width>8</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>2</horizontal_alignment>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_214</name>
+    <text>1</text>
+    <x>91</x>
+    <y>616</y>
+    <width>8</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>2</horizontal_alignment>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_233</name>
+    <text> Set</text>
+    <x>215</x>
+    <y>91</y>
+    <width>26</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_234</name>
+    <text>Readback</text>
+    <x>271</x>
+    <y>91</y>
+    <width>67</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update</name>
+    <pv_name>sys://time</pv_name>
+    <x>28</x>
+    <y>815</y>
+    <width>133</width>
+    <background_color>
+      <color name="Header_ForeGround" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <wrap_words>false</wrap_words>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_215</name>
+    <text>6</text>
+    <x>91</x>
+    <y>756</y>
+    <width>8</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>2</horizontal_alignment>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_216</name>
+    <text>7</text>
+    <x>90</x>
+    <y>787</y>
+    <width>8</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>2</horizontal_alignment>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_217</name>
+    <text>4</text>
+    <x>91</x>
+    <y>700</y>
+    <width>8</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>2</horizontal_alignment>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_218</name>
+    <text>5</text>
+    <x>91</x>
+    <y>728</y>
+    <width>8</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>2</horizontal_alignment>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_235</name>
+    <text>Readback</text>
+    <x>518</x>
+    <y>91</y>
+    <width>67</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_236</name>
+    <text>Set</text>
+    <x>467</x>
+    <y>91</y>
+    <width>22</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_237</name>
+    <text>Power</text>
+    <x>138</x>
+    <y>91</y>
+    <width>43</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_219</name>
+    <text>Card</text>
+    <x>26</x>
+    <y>91</y>
+    <width>32</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_220</name>
+    <text>0</text>
+    <x>51</x>
+    <y>117</y>
+    <width>8</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>2</horizontal_alignment>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_221</name>
+    <text>1</text>
+    <x>51</x>
+    <y>353</y>
+    <width>8</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>2</horizontal_alignment>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_222</name>
+    <text>2</text>
+    <x>51</x>
+    <y>590</y>
+    <width>8</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>2</horizontal_alignment>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>Text Entry</name>
+    <pv_name>hcnps_LV:00:00:VSet</pv_name>
+    <x>203</x>
+    <y>111</y>
+    <width>52</width>
+    <height>28</height>
+    <background_color>
+      <color name="Read_Background" red="240" green="240" blue="240">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>Text Entry_1</name>
+    <pv_name>hcnps_LV:00:01:VSet</pv_name>
+    <x>203</x>
+    <y>139</y>
+    <width>52</width>
+    <height>28</height>
+    <background_color>
+      <color name="Read_Background" red="240" green="240" blue="240">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>Text Entry_2</name>
+    <pv_name>hcnps_LV:00:02:VSet</pv_name>
+    <x>203</x>
+    <y>167</y>
+    <width>52</width>
+    <height>28</height>
+    <background_color>
+      <color name="Read_Background" red="240" green="240" blue="240">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>Text Entry_3</name>
+    <pv_name>hcnps_LV:00:03:VSet</pv_name>
+    <x>203</x>
+    <y>195</y>
+    <width>52</width>
+    <height>28</height>
+    <background_color>
+      <color name="Read_Background" red="240" green="240" blue="240">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>Text Entry_4</name>
+    <pv_name>hcnps_LV:00:04:VSet</pv_name>
+    <x>203</x>
+    <y>223</y>
+    <width>52</width>
+    <height>28</height>
+    <background_color>
+      <color name="Read_Background" red="240" green="240" blue="240">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>Text Entry_5</name>
+    <pv_name>hcnps_LV:00:05:VSet</pv_name>
+    <x>203</x>
+    <y>251</y>
+    <width>52</width>
+    <height>28</height>
+    <background_color>
+      <color name="Read_Background" red="240" green="240" blue="240">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>Text Entry_6</name>
+    <pv_name>hcnps_LV:00:06:VSet</pv_name>
+    <x>203</x>
+    <y>279</y>
+    <width>52</width>
+    <height>28</height>
+    <background_color>
+      <color name="Read_Background" red="240" green="240" blue="240">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>Text Entry_7</name>
+    <pv_name>hcnps_LV:00:07:VSet</pv_name>
+    <x>203</x>
+    <y>307</y>
+    <width>52</width>
+    <height>28</height>
+    <background_color>
+      <color name="Read_Background" red="240" green="240" blue="240">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>Text Entry_8</name>
+    <pv_name>hcnps_LV:01:00:VSet</pv_name>
+    <x>203</x>
+    <y>347</y>
+    <width>52</width>
+    <height>28</height>
+    <background_color>
+      <color name="Read_Background" red="240" green="240" blue="240">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>Text Entry_9</name>
+    <pv_name>hcnps_LV:01:01:VSet</pv_name>
+    <x>203</x>
+    <y>375</y>
+    <width>52</width>
+    <height>28</height>
+    <background_color>
+      <color name="Read_Background" red="240" green="240" blue="240">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>Text Entry_10</name>
+    <pv_name>hcnps_LV:01:02:VSet</pv_name>
+    <x>203</x>
+    <y>403</y>
+    <width>52</width>
+    <height>28</height>
+    <background_color>
+      <color name="Read_Background" red="240" green="240" blue="240">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>Text Entry_11</name>
+    <pv_name>hcnps_LV:01:03:VSet</pv_name>
+    <x>203</x>
+    <y>431</y>
+    <width>52</width>
+    <height>28</height>
+    <background_color>
+      <color name="Read_Background" red="240" green="240" blue="240">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>Text Entry_12</name>
+    <pv_name>hcnps_LV:01:04:VSet</pv_name>
+    <x>203</x>
+    <y>459</y>
+    <width>52</width>
+    <height>28</height>
+    <background_color>
+      <color name="Read_Background" red="240" green="240" blue="240">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>Text Entry_13</name>
+    <pv_name>hcnps_LV:01:05:VSet</pv_name>
+    <x>203</x>
+    <y>487</y>
+    <width>52</width>
+    <height>28</height>
+    <background_color>
+      <color name="Read_Background" red="240" green="240" blue="240">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>Text Entry_14</name>
+    <pv_name>hcnps_LV:01:06:VSet</pv_name>
+    <x>203</x>
+    <y>515</y>
+    <width>52</width>
+    <height>28</height>
+    <background_color>
+      <color name="Read_Background" red="240" green="240" blue="240">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>Text Entry_15</name>
+    <pv_name>hcnps_LV:01:07:VSet</pv_name>
+    <x>203</x>
+    <y>543</y>
+    <width>52</width>
+    <height>28</height>
+    <background_color>
+      <color name="Read_Background" red="240" green="240" blue="240">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>Text Entry_16</name>
+    <pv_name>hcnps_LV:02:00:VSet</pv_name>
+    <x>203</x>
+    <y>584</y>
+    <width>52</width>
+    <height>28</height>
+    <background_color>
+      <color name="Read_Background" red="240" green="240" blue="240">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>Text Entry_17</name>
+    <pv_name>hcnps_LV:02:01:VSet</pv_name>
+    <x>203</x>
+    <y>612</y>
+    <width>52</width>
+    <height>28</height>
+    <background_color>
+      <color name="Read_Background" red="240" green="240" blue="240">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>Text Entry_18</name>
+    <pv_name>hcnps_LV:02:02:VSet</pv_name>
+    <x>203</x>
+    <y>640</y>
+    <width>52</width>
+    <height>28</height>
+    <background_color>
+      <color name="Read_Background" red="240" green="240" blue="240">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>Text Entry_19</name>
+    <pv_name>hcnps_LV:02:03:VSet</pv_name>
+    <x>203</x>
+    <y>668</y>
+    <width>52</width>
+    <height>28</height>
+    <background_color>
+      <color name="Read_Background" red="240" green="240" blue="240">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>Text Entry_20</name>
+    <pv_name>hcnps_LV:02:04:VSet</pv_name>
+    <x>203</x>
+    <y>696</y>
+    <width>52</width>
+    <height>28</height>
+    <background_color>
+      <color name="Read_Background" red="240" green="240" blue="240">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>Text Entry_21</name>
+    <pv_name>hcnps_LV:02:05:VSet</pv_name>
+    <x>203</x>
+    <y>724</y>
+    <width>52</width>
+    <height>28</height>
+    <background_color>
+      <color name="Read_Background" red="240" green="240" blue="240">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>Text Entry_22</name>
+    <pv_name>hcnps_LV:02:06:VSet</pv_name>
+    <x>203</x>
+    <y>752</y>
+    <width>52</width>
+    <height>28</height>
+    <background_color>
+      <color name="Read_Background" red="240" green="240" blue="240">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>Text Entry_23</name>
+    <pv_name>hcnps_LV:02:07:VSet</pv_name>
+    <x>203</x>
+    <y>778</y>
+    <width>52</width>
+    <height>28</height>
+    <background_color>
+      <color name="Read_Background" red="240" green="240" blue="240">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_9</name>
+    <pv_name>hcnps_LV:00:00:VMon</pv_name>
+    <x>279</x>
+    <y>111</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_10</name>
+    <pv_name>hcnps_LV:00:01:VMon</pv_name>
+    <x>279</x>
+    <y>139</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_11</name>
+    <pv_name>hcnps_LV:00:02:VMon</pv_name>
+    <x>279</x>
+    <y>167</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_12</name>
+    <pv_name>hcnps_LV:00:03:VMon</pv_name>
+    <x>279</x>
+    <y>195</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_13</name>
+    <pv_name>hcnps_LV:00:04:VMon</pv_name>
+    <x>279</x>
+    <y>223</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_14</name>
+    <pv_name>hcnps_LV:00:05:VMon</pv_name>
+    <x>279</x>
+    <y>251</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_15</name>
+    <pv_name>hcnps_LV:00:06:VMon</pv_name>
+    <x>279</x>
+    <y>279</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_16</name>
+    <pv_name>hcnps_LV:00:07:VMon</pv_name>
+    <x>279</x>
+    <y>307</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_17</name>
+    <pv_name>hcnps_LV:01:00:VMon</pv_name>
+    <x>279</x>
+    <y>347</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_18</name>
+    <pv_name>hcnps_LV:01:01:VMon</pv_name>
+    <x>279</x>
+    <y>375</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_19</name>
+    <pv_name>hcnps_LV:01:02:VMon</pv_name>
+    <x>279</x>
+    <y>403</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_20</name>
+    <pv_name>hcnps_LV:01:03:VMon</pv_name>
+    <x>279</x>
+    <y>431</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_21</name>
+    <pv_name>hcnps_LV:01:04:VMon</pv_name>
+    <x>279</x>
+    <y>459</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_22</name>
+    <pv_name>hcnps_LV:01:05:VMon</pv_name>
+    <x>279</x>
+    <y>487</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_23</name>
+    <pv_name>hcnps_LV:01:06:VMon</pv_name>
+    <x>279</x>
+    <y>515</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_24</name>
+    <pv_name>hcnps_LV:01:07:VMon</pv_name>
+    <x>279</x>
+    <y>543</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_25</name>
+    <pv_name>hcnps_LV:02:00:VMon</pv_name>
+    <x>279</x>
+    <y>584</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_26</name>
+    <pv_name>hcnps_LV:02:01:VMon</pv_name>
+    <x>279</x>
+    <y>612</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_27</name>
+    <pv_name>hcnps_LV:02:02:VMon</pv_name>
+    <x>279</x>
+    <y>640</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_28</name>
+    <pv_name>hcnps_LV:02:03:VMon</pv_name>
+    <x>279</x>
+    <y>668</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_29</name>
+    <pv_name>hcnps_LV:02:04:VMon</pv_name>
+    <x>279</x>
+    <y>696</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_30</name>
+    <pv_name>hcnps_LV:02:05:VMon</pv_name>
+    <x>279</x>
+    <y>724</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_31</name>
+    <pv_name>hcnps_LV:02:06:VMon</pv_name>
+    <x>279</x>
+    <y>752</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_32</name>
+    <pv_name>hcnps_LV:02:07:VMon</pv_name>
+    <x>279</x>
+    <y>778</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>Boolean Button</name>
+    <pv_name>hcnps_LV:00:00:Pw</pv_name>
+    <x>133</x>
+    <y>111</y>
+    <width>52</width>
+    <height>26</height>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>Boolean Button_1</name>
+    <pv_name>hcnps_LV:00:01:Pw</pv_name>
+    <x>133</x>
+    <y>139</y>
+    <width>52</width>
+    <height>26</height>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>Boolean Button_2</name>
+    <pv_name>hcnps_LV:00:02:Pw</pv_name>
+    <x>133</x>
+    <y>167</y>
+    <width>52</width>
+    <height>26</height>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>Boolean Button_3</name>
+    <pv_name>hcnps_LV:00:03:Pw</pv_name>
+    <x>133</x>
+    <y>195</y>
+    <width>52</width>
+    <height>26</height>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>Boolean Button_4</name>
+    <pv_name>hcnps_LV:00:04:Pw</pv_name>
+    <x>133</x>
+    <y>223</y>
+    <width>52</width>
+    <height>26</height>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>Boolean Button_5</name>
+    <pv_name>hcnps_LV:00:05:Pw</pv_name>
+    <x>133</x>
+    <y>251</y>
+    <width>52</width>
+    <height>26</height>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>Boolean Button_6</name>
+    <pv_name>hcnps_LV:00:06:Pw</pv_name>
+    <x>133</x>
+    <y>279</y>
+    <width>52</width>
+    <height>26</height>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>Boolean Button_7</name>
+    <pv_name>hcnps_LV:00:07:Pw</pv_name>
+    <x>133</x>
+    <y>307</y>
+    <width>52</width>
+    <height>26</height>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>Boolean Button_8</name>
+    <pv_name>hcnps_LV:01:00:Pw</pv_name>
+    <x>133</x>
+    <y>347</y>
+    <width>52</width>
+    <height>26</height>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>Boolean Button_9</name>
+    <pv_name>hcnps_LV:01:01:Pw</pv_name>
+    <x>133</x>
+    <y>375</y>
+    <width>52</width>
+    <height>26</height>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>Boolean Button_10</name>
+    <pv_name>hcnps_LV:01:02:Pw</pv_name>
+    <x>133</x>
+    <y>403</y>
+    <width>52</width>
+    <height>26</height>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>Boolean Button_11</name>
+    <pv_name>hcnps_LV:01:03:Pw</pv_name>
+    <x>133</x>
+    <y>431</y>
+    <width>52</width>
+    <height>26</height>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>Boolean Button_12</name>
+    <pv_name>hcnps_LV:01:04:Pw</pv_name>
+    <x>133</x>
+    <y>459</y>
+    <width>52</width>
+    <height>26</height>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>Boolean Button_13</name>
+    <pv_name>hcnps_LV:01:05:Pw</pv_name>
+    <x>133</x>
+    <y>487</y>
+    <width>52</width>
+    <height>26</height>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>Boolean Button_14</name>
+    <pv_name>hcnps_LV:01:06:Pw</pv_name>
+    <x>133</x>
+    <y>515</y>
+    <width>52</width>
+    <height>26</height>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>Boolean Button_15</name>
+    <pv_name>hcnps_LV:01:07:Pw</pv_name>
+    <x>133</x>
+    <y>543</y>
+    <width>52</width>
+    <height>26</height>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>Boolean Button_16</name>
+    <pv_name>hcnps_LV:02:00:Pw</pv_name>
+    <x>133</x>
+    <y>584</y>
+    <width>52</width>
+    <height>26</height>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>Boolean Button_17</name>
+    <pv_name>hcnps_LV:02:01:Pw</pv_name>
+    <x>133</x>
+    <y>611</y>
+    <width>52</width>
+    <height>26</height>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>Boolean Button_18</name>
+    <pv_name>hcnps_LV:02:02:Pw</pv_name>
+    <x>133</x>
+    <y>638</y>
+    <width>52</width>
+    <height>26</height>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>Boolean Button_19</name>
+    <pv_name>hcnps_LV:02:03:Pw</pv_name>
+    <x>133</x>
+    <y>666</y>
+    <width>52</width>
+    <height>26</height>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>Boolean Button_20</name>
+    <pv_name>hcnps_LV:02:04:Pw</pv_name>
+    <x>133</x>
+    <y>695</y>
+    <width>52</width>
+    <height>26</height>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>Boolean Button_21</name>
+    <pv_name>hcnps_LV:02:05:Pw</pv_name>
+    <x>133</x>
+    <y>722</y>
+    <width>52</width>
+    <height>26</height>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>Boolean Button_22</name>
+    <pv_name>hcnps_LV:02:06:Pw</pv_name>
+    <x>133</x>
+    <y>750</y>
+    <width>52</width>
+    <height>26</height>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>Boolean Button_23</name>
+    <pv_name>hcnps_LV:02:07:Pw</pv_name>
+    <x>133</x>
+    <y>778</y>
+    <width>52</width>
+    <height>26</height>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>Text Entry_24</name>
+    <pv_name>hcnps_LV:00:00:ISet</pv_name>
+    <x>452</x>
+    <y>111</y>
+    <width>52</width>
+    <height>28</height>
+    <background_color>
+      <color name="Read_Background" red="240" green="240" blue="240">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>Text Entry_25</name>
+    <pv_name>hcnps_LV:00:01:ISet</pv_name>
+    <x>452</x>
+    <y>139</y>
+    <width>52</width>
+    <height>28</height>
+    <background_color>
+      <color name="Read_Background" red="240" green="240" blue="240">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>Text Entry_26</name>
+    <pv_name>hcnps_LV:00:02:ISet</pv_name>
+    <x>452</x>
+    <y>167</y>
+    <width>52</width>
+    <height>28</height>
+    <background_color>
+      <color name="Read_Background" red="240" green="240" blue="240">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>Text Entry_27</name>
+    <pv_name>hcnps_LV:00:03:ISet</pv_name>
+    <x>452</x>
+    <y>195</y>
+    <width>52</width>
+    <height>28</height>
+    <background_color>
+      <color name="Read_Background" red="240" green="240" blue="240">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>Text Entry_28</name>
+    <pv_name>hcnps_LV:00:04:ISet</pv_name>
+    <x>452</x>
+    <y>223</y>
+    <width>52</width>
+    <height>28</height>
+    <background_color>
+      <color name="Read_Background" red="240" green="240" blue="240">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>Text Entry_29</name>
+    <pv_name>hcnps_LV:00:05:ISet</pv_name>
+    <x>452</x>
+    <y>251</y>
+    <width>52</width>
+    <height>28</height>
+    <background_color>
+      <color name="Read_Background" red="240" green="240" blue="240">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>Text Entry_30</name>
+    <pv_name>hcnps_LV:00:06:ISet</pv_name>
+    <x>452</x>
+    <y>279</y>
+    <width>52</width>
+    <height>28</height>
+    <background_color>
+      <color name="Read_Background" red="240" green="240" blue="240">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>Text Entry_31</name>
+    <pv_name>hcnps_LV:00:07:ISet</pv_name>
+    <x>452</x>
+    <y>307</y>
+    <width>52</width>
+    <height>28</height>
+    <background_color>
+      <color name="Read_Background" red="240" green="240" blue="240">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>Text Entry_32</name>
+    <pv_name>hcnps_LV:01:00:ISet</pv_name>
+    <x>452</x>
+    <y>347</y>
+    <width>52</width>
+    <height>28</height>
+    <background_color>
+      <color name="Read_Background" red="240" green="240" blue="240">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>Text Entry_33</name>
+    <pv_name>hcnps_LV:01:01:ISet</pv_name>
+    <x>452</x>
+    <y>375</y>
+    <width>52</width>
+    <height>28</height>
+    <background_color>
+      <color name="Read_Background" red="240" green="240" blue="240">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>Text Entry_34</name>
+    <pv_name>hcnps_LV:01:02:ISet</pv_name>
+    <x>452</x>
+    <y>403</y>
+    <width>52</width>
+    <height>28</height>
+    <background_color>
+      <color name="Read_Background" red="240" green="240" blue="240">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>Text Entry_35</name>
+    <pv_name>hcnps_LV:01:03:ISet</pv_name>
+    <x>452</x>
+    <y>431</y>
+    <width>52</width>
+    <height>28</height>
+    <background_color>
+      <color name="Read_Background" red="240" green="240" blue="240">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>Text Entry_36</name>
+    <pv_name>hcnps_LV:01:04:ISet</pv_name>
+    <x>452</x>
+    <y>459</y>
+    <width>52</width>
+    <height>28</height>
+    <background_color>
+      <color name="Read_Background" red="240" green="240" blue="240">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>Text Entry_37</name>
+    <pv_name>hcnps_LV:01:05:ISet</pv_name>
+    <x>452</x>
+    <y>487</y>
+    <width>52</width>
+    <height>28</height>
+    <background_color>
+      <color name="Read_Background" red="240" green="240" blue="240">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>Text Entry_38</name>
+    <pv_name>hcnps_LV:01:06:ISet</pv_name>
+    <x>452</x>
+    <y>515</y>
+    <width>52</width>
+    <height>28</height>
+    <background_color>
+      <color name="Read_Background" red="240" green="240" blue="240">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>Text Entry_39</name>
+    <pv_name>hcnps_LV:01:07:ISet</pv_name>
+    <x>452</x>
+    <y>543</y>
+    <width>52</width>
+    <height>28</height>
+    <background_color>
+      <color name="Read_Background" red="240" green="240" blue="240">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>Text Entry_40</name>
+    <pv_name>hcnps_LV:02:00:ISet</pv_name>
+    <x>452</x>
+    <y>584</y>
+    <width>52</width>
+    <height>28</height>
+    <background_color>
+      <color name="Read_Background" red="240" green="240" blue="240">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>Text Entry_41</name>
+    <pv_name>hcnps_LV:02:01:ISet</pv_name>
+    <x>452</x>
+    <y>612</y>
+    <width>52</width>
+    <height>28</height>
+    <background_color>
+      <color name="Read_Background" red="240" green="240" blue="240">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>Text Entry_42</name>
+    <pv_name>hcnps_LV:02:02:ISet</pv_name>
+    <x>452</x>
+    <y>640</y>
+    <width>52</width>
+    <height>28</height>
+    <background_color>
+      <color name="Read_Background" red="240" green="240" blue="240">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>Text Entry_43</name>
+    <pv_name>hcnps_LV:02:03:ISet</pv_name>
+    <x>452</x>
+    <y>668</y>
+    <width>52</width>
+    <height>28</height>
+    <background_color>
+      <color name="Read_Background" red="240" green="240" blue="240">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>Text Entry_44</name>
+    <pv_name>hcnps_LV:02:04:ISet</pv_name>
+    <x>452</x>
+    <y>696</y>
+    <width>52</width>
+    <height>28</height>
+    <background_color>
+      <color name="Read_Background" red="240" green="240" blue="240">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>Text Entry_45</name>
+    <pv_name>hcnps_LV:02:05:ISet</pv_name>
+    <x>452</x>
+    <y>724</y>
+    <width>52</width>
+    <height>28</height>
+    <background_color>
+      <color name="Read_Background" red="240" green="240" blue="240">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>Text Entry_46</name>
+    <pv_name>hcnps_LV:02:06:ISet</pv_name>
+    <x>452</x>
+    <y>752</y>
+    <width>52</width>
+    <height>28</height>
+    <background_color>
+      <color name="Read_Background" red="240" green="240" blue="240">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>Text Entry_47</name>
+    <pv_name>hcnps_LV:02:07:ISet</pv_name>
+    <x>452</x>
+    <y>778</y>
+    <width>52</width>
+    <height>28</height>
+    <background_color>
+      <color name="Read_Background" red="240" green="240" blue="240">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_33</name>
+    <pv_name>hcnps_LV:00:00:IMon</pv_name>
+    <x>526</x>
+    <y>111</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_34</name>
+    <pv_name>hcnps_LV:00:01:IMon</pv_name>
+    <x>526</x>
+    <y>139</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_35</name>
+    <pv_name>hcnps_LV:00:02:IMon</pv_name>
+    <x>526</x>
+    <y>167</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_36</name>
+    <pv_name>hcnps_LV:00:03:IMon</pv_name>
+    <x>526</x>
+    <y>195</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_37</name>
+    <pv_name>hcnps_LV:00:04:IMon</pv_name>
+    <x>526</x>
+    <y>223</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_38</name>
+    <pv_name>hcnps_LV:00:05:IMon</pv_name>
+    <x>526</x>
+    <y>251</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_39</name>
+    <pv_name>hcnps_LV:00:06:IMon</pv_name>
+    <x>526</x>
+    <y>279</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_40</name>
+    <pv_name>hcnps_LV:00:07:IMon</pv_name>
+    <x>526</x>
+    <y>307</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_41</name>
+    <pv_name>hcnps_LV:01:00:IMon</pv_name>
+    <x>526</x>
+    <y>347</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_42</name>
+    <pv_name>hcnps_LV:01:01:IMon</pv_name>
+    <x>526</x>
+    <y>375</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_43</name>
+    <pv_name>hcnps_LV:01:02:IMon</pv_name>
+    <x>526</x>
+    <y>403</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_44</name>
+    <pv_name>hcnps_LV:01:03:IMon</pv_name>
+    <x>526</x>
+    <y>431</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_45</name>
+    <pv_name>hcnps_LV:01:04:IMon</pv_name>
+    <x>526</x>
+    <y>459</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_46</name>
+    <pv_name>hcnps_LV:01:05:IMon</pv_name>
+    <x>526</x>
+    <y>487</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_47</name>
+    <pv_name>hcnps_LV:01:06:IMon</pv_name>
+    <x>526</x>
+    <y>515</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_48</name>
+    <pv_name>hcnps_LV:01:07:IMon</pv_name>
+    <x>526</x>
+    <y>543</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_49</name>
+    <pv_name>hcnps_LV:02:00:IMon</pv_name>
+    <x>526</x>
+    <y>584</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_50</name>
+    <pv_name>hcnps_LV:02:01:IMon</pv_name>
+    <x>526</x>
+    <y>612</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_51</name>
+    <pv_name>hcnps_LV:02:02:IMon</pv_name>
+    <x>526</x>
+    <y>640</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_52</name>
+    <pv_name>hcnps_LV:02:03:IMon</pv_name>
+    <x>526</x>
+    <y>668</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_53</name>
+    <pv_name>hcnps_LV:02:04:IMon</pv_name>
+    <x>526</x>
+    <y>696</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_54</name>
+    <pv_name>hcnps_LV:02:05:IMon</pv_name>
+    <x>526</x>
+    <y>724</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_55</name>
+    <pv_name>hcnps_LV:02:06:IMon</pv_name>
+    <x>526</x>
+    <y>752</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_56</name>
+    <pv_name>hcnps_LV:02:07:IMon</pv_name>
+    <x>526</x>
+    <y>778</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_238</name>
+    <text>Difference</text>
+    <x>351</x>
+    <y>91</y>
+    <width>69</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_239</name>
+    <text>Voltage</text>
+    <x>282</x>
+    <y>69</y>
+    <width>51</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_240</name>
+    <text>Current</text>
+    <x>535</x>
+    <y>69</y>
+    <width>51</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline</name>
+    <x>203</x>
+    <y>89</y>
+    <width>220</width>
+    <height>1</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="220.3826320482337" y="0.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Text" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_241</name>
+    <text>Difference</text>
+    <x>597</x>
+    <y>91</y>
+    <width>69</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_1</name>
+    <pv_name>hcnps_LV:00:00:VDiff</pv_name>
+    <x>359</x>
+    <y>111</y>
+    <width>52</width>
+    <height>28</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_2</name>
+    <pv_name>hcnps_LV:00:01:VDiff</pv_name>
+    <x>359</x>
+    <y>139</y>
+    <width>52</width>
+    <height>28</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_3</name>
+    <pv_name>hcnps_LV:00:02:VDiff</pv_name>
+    <x>359</x>
+    <y>167</y>
+    <width>52</width>
+    <height>28</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_4</name>
+    <pv_name>hcnps_LV:00:03:VDiff</pv_name>
+    <x>359</x>
+    <y>195</y>
+    <width>52</width>
+    <height>28</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_5</name>
+    <pv_name>hcnps_LV:00:04:VDiff</pv_name>
+    <x>359</x>
+    <y>223</y>
+    <width>52</width>
+    <height>28</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_6</name>
+    <pv_name>hcnps_LV:00:05:VDiff</pv_name>
+    <x>359</x>
+    <y>251</y>
+    <width>52</width>
+    <height>28</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_7</name>
+    <pv_name>hcnps_LV:00:06:VDiff</pv_name>
+    <x>359</x>
+    <y>279</y>
+    <width>52</width>
+    <height>28</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_8</name>
+    <pv_name>hcnps_LV:00:07:VDiff</pv_name>
+    <x>359</x>
+    <y>307</y>
+    <width>52</width>
+    <height>28</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_57</name>
+    <pv_name>hcnps_LV:01:00:VDiff</pv_name>
+    <x>359</x>
+    <y>347</y>
+    <width>52</width>
+    <height>28</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_58</name>
+    <pv_name>hcnps_LV:01:01:VDiff</pv_name>
+    <x>359</x>
+    <y>375</y>
+    <width>52</width>
+    <height>28</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_59</name>
+    <pv_name>hcnps_LV:01:02:VDiff</pv_name>
+    <x>359</x>
+    <y>403</y>
+    <width>52</width>
+    <height>28</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_60</name>
+    <pv_name>hcnps_LV:01:03:VDiff</pv_name>
+    <x>359</x>
+    <y>431</y>
+    <width>52</width>
+    <height>28</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_61</name>
+    <pv_name>hcnps_LV:01:04:VDiff</pv_name>
+    <x>359</x>
+    <y>459</y>
+    <width>52</width>
+    <height>28</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_62</name>
+    <pv_name>hcnps_LV:01:05:VDiff</pv_name>
+    <x>359</x>
+    <y>487</y>
+    <width>52</width>
+    <height>28</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_63</name>
+    <pv_name>hcnps_LV:01:06:VDiff</pv_name>
+    <x>359</x>
+    <y>515</y>
+    <width>52</width>
+    <height>28</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_64</name>
+    <pv_name>hcnps_LV:01:07:VDiff</pv_name>
+    <x>359</x>
+    <y>543</y>
+    <width>52</width>
+    <height>28</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_65</name>
+    <pv_name>hcnps_LV:02:00:VDiff</pv_name>
+    <x>359</x>
+    <y>584</y>
+    <width>52</width>
+    <height>28</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_66</name>
+    <pv_name>hcnps_LV:02:01:VDiff</pv_name>
+    <x>359</x>
+    <y>612</y>
+    <width>52</width>
+    <height>28</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_67</name>
+    <pv_name>hcnps_LV:02:02:VDiff</pv_name>
+    <x>359</x>
+    <y>640</y>
+    <width>52</width>
+    <height>28</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_68</name>
+    <pv_name>hcnps_LV:02:03:VDiff</pv_name>
+    <x>359</x>
+    <y>668</y>
+    <width>52</width>
+    <height>28</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_69</name>
+    <pv_name>hcnps_LV:02:04:VDiff</pv_name>
+    <x>359</x>
+    <y>696</y>
+    <width>52</width>
+    <height>28</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_70</name>
+    <pv_name>hcnps_LV:02:05:VDiff</pv_name>
+    <x>359</x>
+    <y>724</y>
+    <width>52</width>
+    <height>28</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_71</name>
+    <pv_name>hcnps_LV:02:06:VDiff</pv_name>
+    <x>359</x>
+    <y>752</y>
+    <width>52</width>
+    <height>28</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_72</name>
+    <pv_name>hcnps_LV:02:07:VDiff</pv_name>
+    <x>359</x>
+    <y>778</y>
+    <width>52</width>
+    <height>28</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_73</name>
+    <pv_name>hcnps_LV:00:00:IDiff</pv_name>
+    <x>608</x>
+    <y>111</y>
+    <width>50</width>
+    <height>28</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_74</name>
+    <pv_name>hcnps_LV:00:01:IDiff</pv_name>
+    <x>608</x>
+    <y>139</y>
+    <width>50</width>
+    <height>28</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_75</name>
+    <pv_name>hcnps_LV:00:02:IDiff</pv_name>
+    <x>608</x>
+    <y>167</y>
+    <width>50</width>
+    <height>28</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_76</name>
+    <pv_name>hcnps_LV:00:03:IDiff</pv_name>
+    <x>608</x>
+    <y>195</y>
+    <width>50</width>
+    <height>28</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_77</name>
+    <pv_name>hcnps_LV:00:04:IDiff</pv_name>
+    <x>608</x>
+    <y>223</y>
+    <width>50</width>
+    <height>28</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_78</name>
+    <pv_name>hcnps_LV:00:05:IDiff</pv_name>
+    <x>608</x>
+    <y>251</y>
+    <width>50</width>
+    <height>28</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_79</name>
+    <pv_name>hcnps_LV:00:06:IDiff</pv_name>
+    <x>608</x>
+    <y>279</y>
+    <width>50</width>
+    <height>28</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_80</name>
+    <pv_name>hcnps_LV:00:07:IDiff</pv_name>
+    <x>608</x>
+    <y>307</y>
+    <width>50</width>
+    <height>28</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_81</name>
+    <pv_name>hcnps_LV:01:00:IDiff</pv_name>
+    <x>608</x>
+    <y>347</y>
+    <width>50</width>
+    <height>28</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_82</name>
+    <pv_name>hcnps_LV:01:01:IDiff</pv_name>
+    <x>608</x>
+    <y>375</y>
+    <width>50</width>
+    <height>28</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_83</name>
+    <pv_name>hcnps_LV:01:02:IDiff</pv_name>
+    <x>608</x>
+    <y>403</y>
+    <width>50</width>
+    <height>28</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_84</name>
+    <pv_name>hcnps_LV:01:03:IDiff</pv_name>
+    <x>608</x>
+    <y>431</y>
+    <width>50</width>
+    <height>28</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_85</name>
+    <pv_name>hcnps_LV:01:04:IDiff</pv_name>
+    <x>608</x>
+    <y>459</y>
+    <width>50</width>
+    <height>28</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_86</name>
+    <pv_name>hcnps_LV:01:05:IDiff</pv_name>
+    <x>608</x>
+    <y>487</y>
+    <width>50</width>
+    <height>28</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_87</name>
+    <pv_name>hcnps_LV:01:06:IDiff</pv_name>
+    <x>608</x>
+    <y>515</y>
+    <width>50</width>
+    <height>28</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_88</name>
+    <pv_name>hcnps_LV:01:07:IDiff</pv_name>
+    <x>608</x>
+    <y>543</y>
+    <width>50</width>
+    <height>28</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_89</name>
+    <pv_name>hcnps_LV:02:00:IDiff</pv_name>
+    <x>608</x>
+    <y>584</y>
+    <width>50</width>
+    <height>28</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_90</name>
+    <pv_name>hcnps_LV:02:01:IDiff</pv_name>
+    <x>608</x>
+    <y>612</y>
+    <width>50</width>
+    <height>28</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_91</name>
+    <pv_name>hcnps_LV:02:02:IDiff</pv_name>
+    <x>608</x>
+    <y>640</y>
+    <width>50</width>
+    <height>28</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_92</name>
+    <pv_name>hcnps_LV:02:03:IDiff</pv_name>
+    <x>608</x>
+    <y>668</y>
+    <width>50</width>
+    <height>28</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_93</name>
+    <pv_name>hcnps_LV:02:04:IDiff</pv_name>
+    <x>608</x>
+    <y>696</y>
+    <width>50</width>
+    <height>28</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_94</name>
+    <pv_name>hcnps_LV:02:05:IDiff</pv_name>
+    <x>608</x>
+    <y>724</y>
+    <width>50</width>
+    <height>28</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_95</name>
+    <pv_name>hcnps_LV:02:06:IDiff</pv_name>
+    <x>608</x>
+    <y>752</y>
+    <width>50</width>
+    <height>28</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_96</name>
+    <pv_name>hcnps_LV:02:07:IDiff</pv_name>
+    <x>608</x>
+    <y>778</y>
+    <width>50</width>
+    <height>28</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_1</name>
+    <x>449</x>
+    <y>89</y>
+    <width>220</width>
+    <height>1</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="220.3826320482337" y="0.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Text" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+  </widget>
+</display>

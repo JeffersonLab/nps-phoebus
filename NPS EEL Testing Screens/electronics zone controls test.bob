@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display version="2.0.0">
+  <name>electronics zone controls test</name>
+  <width>425</width>
+  <height>370</height>
+  <widget type="label" version="2.0.0">
+    <name>Label_92</name>
+    <text>Inlet manifold 1</text>
+    <x>78</x>
+    <y>109</y>
+    <width>103</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>2</horizontal_alignment>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_93</name>
+    <text>Inlet manifold 2</text>
+    <x>78</x>
+    <y>137</y>
+    <width>103</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>2</horizontal_alignment>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_94</name>
+    <text>Outlet manifold 1</text>
+    <x>69</x>
+    <y>165</y>
+    <width>115</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>2</horizontal_alignment>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_95</name>
+    <text>Outlet manifold 2</text>
+    <x>69</x>
+    <y>193</y>
+    <width>115</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>2</horizontal_alignment>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_96</name>
+    <text>Heat exchanger top 1</text>
+    <x>40</x>
+    <y>221</y>
+    <width>142</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>2</horizontal_alignment>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_97</name>
+    <text>Heat exchanger top 2</text>
+    <x>40</x>
+    <y>249</y>
+    <width>142</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>2</horizontal_alignment>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_98</name>
+    <text>Heat exchanger bottom 1</text>
+    <x>15</x>
+    <y>277</y>
+    <width>168</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>2</horizontal_alignment>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_99</name>
+    <text>Heat exchanger bottom 2</text>
+    <x>15</x>
+    <y>305</y>
+    <width>168</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>2</horizontal_alignment>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="array" version="2.0.0">
+    <name>Array_13</name>
+    <pv_name>hcnps_EZ_cooling_T_hi_limit</pv_name>
+    <x>238</x>
+    <y>93</y>
+    <width>55</width>
+    <height>244</height>
+    <widget type="textentry" version="3.0.0">
+      <name>Text Update_16</name>
+      <width>35</width>
+      <height>28</height>
+      <background_color>
+        <color name="Background" red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <precision>0</precision>
+      <horizontal_alignment>1</horizontal_alignment>
+      <wrap_words>true</wrap_words>
+    </widget>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_100</name>
+    <text>Sensor</text>
+    <x>90</x>
+    <y>67</y>
+    <width>49</width>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_101</name>
+    <text>Electronics Zone Temperature Sensor Controls</text>
+    <x>3</x>
+    <y>9</y>
+    <width>405</width>
+    <height>21</height>
+    <font>
+      <font name="Header 2" family="Liberation Sans" style="BOLD" size="18.0">
+      </font>
+    </font>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update</name>
+    <pv_name>sys://time</pv_name>
+    <x>15</x>
+    <y>348</y>
+    <width>172</width>
+    <background_color>
+      <color name="Header_ForeGround" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <wrap_words>false</wrap_words>
+  </widget>
+  <widget type="array" version="2.0.0">
+    <name>Array_15</name>
+    <pv_name>hcnps_EZ_cooling_T_lo_limit</pv_name>
+    <x>186</x>
+    <y>94</y>
+    <width>55</width>
+    <height>244</height>
+    <widget type="textentry" version="3.0.0">
+      <name>Text Update_18</name>
+      <width>35</width>
+      <height>28</height>
+      <background_color>
+        <color name="Background" red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <precision>0</precision>
+      <horizontal_alignment>1</horizontal_alignment>
+      <wrap_words>true</wrap_words>
+    </widget>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_236</name>
+    <text>high</text>
+    <x>247</x>
+    <y>66</y>
+    <width>30</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_237</name>
+    <text>low</text>
+    <x>201</x>
+    <y>67</y>
+    <width>24</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_238</name>
+    <text>Alarm limit</text>
+    <x>201</x>
+    <y>51</y>
+    <width>73</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+  </widget>
+</display>
